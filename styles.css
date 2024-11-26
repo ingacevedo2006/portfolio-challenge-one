@@ -1,140 +1,109 @@
-/* General */
+
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #ffffff;
+    --color-de-link: #000000;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway', sans-serif;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    background: #f9f9f9;
-    color: #333;
+    padding: 0;
     line-height: 1.6;
 }
 
-h1, h2 {
-    color: #1abc9c;
-    text-align: center;
+ol, ul, li {
+    list-style: none;
 }
 
-section {
-    padding: 40px 20px;
-    margin: 0 auto;
-    max-width: 1200px;
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
 }
 
-/* Cabecera */
-header {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-.header-content {
+/* ------------------------------ Sección Menú -------------------------------*/
+.cabecera {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    padding: 1rem;
+    background-color: var(--color-de-fondo-menu);
 }
 
-.header-photo img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid #1abc9c;
+.cabecera__logo {
+    max-width: 80px; /* Ajuste para pantallas pequeñas */
 }
 
-/* Skills */
-.skills-list {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.skills-list span {
-    background: #1abc9c;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-
-/* Hobbies */
-.hobbies-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.hobbies-buttons button {
-    background: #16a085;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background 0.3s;
-}
-
-.hobbies-buttons button:hover {
-    background: #1abc9c;
-}
-
-/* Carrusel */
-.carrusel {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-}
-
-.carrusel img {
-    max-width: 300px;
-    border-radius: 10px;
-}
-
-/* Formulario */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-form label {
-    display: block;
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background: #1abc9c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-form button:hover {
-    background: #16a085;
-}
-
-/* Pie de página */
-footer {
-    background: #333;
-    color: white;
+.cabecera__titulo {
+    font-size: 1.2rem;
     text-align: center;
-    padding: 10px;
+}
+
+.navegacion__lista {
+    display: none;
+}
+
+.navegacion__elemento a {
+    font-size: 0.9rem;
+}
+/* ------------------------------ Sección Presentación ------------------------------*/
+
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+
+
+/*------------------------------ Sección de Aficiones --------------------------------*/
+
+
+/*------------------------------ Sección de Proyectos --------------------------------*/
+
+
+/*------------------------------ Sección de Contacto ---------------------------------*/
+
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Tablets y pantallas más grandes */
+@media (min-width: 768px) {
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecera__logo {
+        max-width: 100px;
+    }
+
+    .cabecera__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1rem;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
+    .cabecera__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1.1rem;
+    }
 }
