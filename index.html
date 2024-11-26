@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS -->
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio -->
+    <section id="inicio" class="inicio">
+        <h1>¡Hola! Soy [Tu Nombre]</h1>
+        <p>Desarrollador Front-End apasionado por crear experiencias web dinámicas y atractivas.</p>
+    </section>
+
+    <!-- Sección de proyectos -->
+    <section id="proyectos" class="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto. <a href="#">Ver más</a></p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Descripción breve del proyecto. <a href="#">Ver más</a></p>
+        </div>
+        <!-- Agrega más proyectos si es necesario -->
+    </section>
+
+    <!-- Sección de habilidades -->
+    <section id="habilidades" class="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>¿Interesado en colaborar o tienes alguna pregunta? ¡Escríbeme!</p>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Sandra Acevedo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
