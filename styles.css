@@ -4,134 +4,97 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1.6;
+    background: #f9f9f9;
     color: #333;
-    background-color: #f9f9f9;
+    line-height: 1.6;
 }
 
-/* Encabezado y navegación */
+h1, h2 {
+    color: #1abc9c;
+    text-align: center;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Cabecera */
 header {
     background: #333;
-    color: #fff;
-    padding: 10px 0;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 10;
 }
 
-.nav-menu {
-    list-style: none;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #1abc9c;
+}
+
+/* Skills */
+.skills-list {
     display: flex;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    gap: 15px;
+    margin-top: 20px;
 }
 
-.nav-menu li {
-    margin: 0 15px;
+.skills-list span {
+    background: #1abc9c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
-.nav-menu a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    transition: color 0.3s;
+/* Hobbies */
+.hobbies-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-.nav-menu a:hover {
-    color: #1abc9c;
+.hobbies-buttons button {
+    background: #16a085;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
 }
 
-/* Sección de inicio */
-.inicio {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(to bottom, #1abc9c, #16a085);
-    color: #fff;
+.hobbies-buttons button:hover {
+    background: #1abc9c;
 }
 
-.inicio h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+/* Carrusel */
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
 
-.inicio p {
-    font-size: 1.2rem;
+.carrusel img {
+    max-width: 300px;
+    border-radius: 10px;
 }
 
-/* Sección de proyectos */
-.proyectos {
-    padding: 50px 20px;
-    background: #fff;
-    text-align: center;
-}
-
-.proyectos h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.proyecto {
-    margin-bottom: 30px;
-}
-
-.proyecto h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #1abc9c;
-}
-
-.proyecto p {
-    font-size: 1rem;
-}
-
-.proyecto a {
-    text-decoration: none;
-    color: #16a085;
-    font-weight: bold;
-}
-
-.proyecto a:hover {
-    text-decoration: underline;
-}
-
-/* Sección de habilidades */
-.habilidades {
-    padding: 50px 20px;
-    background: #f4f4f4;
-    text-align: center;
-}
-
-.habilidades h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.habilidades ul {
-    list-style: none;
-    padding: 0;
-}
-
-.habilidades li {
-    font-size: 1.2rem;
-    margin: 10px 0;
-}
-
-/* Sección de contacto */
-.contacto {
-    padding: 50px 20px;
-    background: #fff;
-    text-align: center;
-}
-
-.contacto h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #333;
-}
-
+/* Formulario */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -143,24 +106,23 @@ form label {
     margin-top: 15px;
 }
 
-form input,
-form textarea {
+form input, form textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 1rem;
 }
 
 form button {
-    background: #1abc9c;
-    color: #fff;
+    display: block;
+    margin: 20px auto;
     padding: 10px 20px;
+    background: #1abc9c;
+    color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
-    margin-top: 20px;
+    font-size: 16px;
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -172,13 +134,7 @@ form button:hover {
 /* Pie de página */
 footer {
     background: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
+    padding: 10px;
 }
