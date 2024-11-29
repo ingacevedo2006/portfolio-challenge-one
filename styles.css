@@ -63,17 +63,12 @@ a {
 /* ------------------------------ Sección Presentación ------------------------------*/
 
 .presentacion{
-  /*  display: flex;
+    display: flex;
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
     align-items: center;
     gap: 20px; /* Espacio entre la imagen y el texto */
     padding: 20px;*/
-
-    display: flex;
-    flex-direction: row; /* Elementos en fila */
-    align-items: center; /* Alineación vertical */
-    gap: 20px; /* Espacio entre la imagen y el texto */
-    
+  
  }
 
 
