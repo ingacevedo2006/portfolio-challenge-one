@@ -62,14 +62,15 @@ a {
 
 /* ------------------------------ Sección Presentación ------------------------------*/
 
-/* .presentacion{
+.presentacion{
+    display: flex;
+    flex-direction: row-reverse;
  }
-*/
+
 
 
 .presentacion__foto{
-    display: flex;
-    flex-direction: row-reverse;
+
 }
 
 /*    .presentacion__contenedor */
