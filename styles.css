@@ -144,6 +144,80 @@ a {
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
 
+.contacto {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.contacto__contenedor {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Espacio entre imagen y contenido */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contacto__imagen {
+    max-width: 40%; /* Imagen ocupa 40% del ancho del contenedor */
+    height: auto;
+    border-radius: 8px; /* Opcional: esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+}
+
+.contacto__contenido {
+    flex: 1; /* El contenido ocupa el resto del espacio */
+}
+
+.contacto__titulo {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contacto__descripcion {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaciado entre los campos */
+}
+
+.contacto__campo {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contacto__campo--textarea {
+    height: 100px;
+    resize: none; /* Evita que el usuario cambie el tamaño del campo */
+}
+
+.contacto__boton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto__boton:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
