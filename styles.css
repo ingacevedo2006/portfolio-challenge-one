@@ -71,22 +71,65 @@ a {
     justify-content: space-between; /* Distribuye el texto y la imagen */
     padding: 20px;
     gap: 20px; /* Espacio entre texto e imagen */
-
-    
  }
-
 
 
 .presentacion__foto{
     max-width: 40%; /* Ajusta el tamaño de la imagen */
     height: auto; /* Mantén la proporción de la imagen */
     object-fit: cover; /* Asegura que la imagen se ajuste bien */
- 
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+ }
+
+
+/* Contenedor de texto */
+.presentacion__contenedor {
+    flex: 1; /* El texto ocupará el resto del espacio disponible */
 }
 
-/*    .presentacion__contenedor */
+/* Título principal */
+.presentacion__titulo {
+    font-size: 2rem; /* Tamaño grande para el título */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    color: #2c3e50;
+}
 
+/* Subtítulo */
+.presentacion__subtitulo {
+    font-size: 1.2rem; /* Tamaño más pequeño que el título */
+    font-weight: normal; /* Texto normal */
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
 
+/* Lista de redes sociales */
+.redes {
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre los elementos de la lista */
+}
+
+.redes__img a {
+    text-decoration: none;
+    color: #3498db; /* Color azul para los enlaces */
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacio entre texto e imagen */
+    transition: color 0.3s ease;
+}
+
+.redes__img a:hover {
+    color: #2c3e50; /* Cambia de color al pasar el mouse */
+}
+
+.redes__img img {
+    width: 16px; /* Tamaño pequeño para el ícono */
+    height: 16px;
+}
 
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
