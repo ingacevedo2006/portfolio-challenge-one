@@ -46,8 +46,8 @@ a {
 }
 
 .navegacion__lista {
-/*    display: none; */
-    display: flex;
+  display: none; 
+ /*   display: flex; */
     gap: 40px;
 }
 
