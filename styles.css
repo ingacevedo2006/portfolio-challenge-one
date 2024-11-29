@@ -169,9 +169,7 @@ a {
 }
 
 .contacto__titulo {
-   font-size: 2rem;
-    margin-bottom: 10px;
-    color: #333;
+flex: 1; 
 }
 
 .contacto__subtitulo {
