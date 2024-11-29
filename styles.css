@@ -34,7 +34,7 @@ a {
 
 
 .cabecera__logo {
-    background-image: url(../imagenes/Logo.png);
+    background-image: url(../imagenes/logo.png);
     background-repeat: no-repeat;
     padding: 15px 65px;
     cursor: pointer; 
