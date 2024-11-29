@@ -63,18 +63,24 @@ a {
 /* ------------------------------ Sección Presentación ------------------------------*/
 
 .presentacion{
+ /*   display: flex;
+    flex-direction: row-reverse; */
+
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center; /* Alinea verticalmente si los elementos tienen alturas diferentes */
+    justify-content: space-between; /* Distribuye el texto y la imagen */
+    padding: 20px;
+    gap: 20px; /* Espacio entre texto e imagen */
+
+    
  }
 
 
 
 .presentacion__foto{
-
-    float: right; /* La imagen se posiciona a la derecha */
-    margin-left: 20px; /* Espacio entre el texto y la imagen */
     max-width: 40%; /* Ajusta el tamaño de la imagen */
     height: auto; /* Mantén la proporción de la imagen */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
  
 }
 
