@@ -169,6 +169,7 @@ a {
 }
 
 .contacto__titulo {
+    flex-wrap: wrap;
     font-size: 2rem;
     margin-bottom: 10px;
     color: #333;
