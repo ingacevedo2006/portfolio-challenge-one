@@ -73,10 +73,9 @@ a {
 
 
 .presentacion__foto{
-    max-width: 40%; /* Ajusta el tamaño de la imagen */
+    max-width: 25%; /* Ajusta el tamaño de la imagen */
     height: auto; /* Mantén la proporción de la imagen */
     object-fit: cover; /* Asegura que la imagen se ajuste bien */
-    border-radius: 50%; /* Hace que la imagen sea circular */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
  }
 
