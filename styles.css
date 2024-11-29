@@ -158,7 +158,7 @@ a {
 }
 
 .contacto__img {
-    max-width: 40%; /* Imagen ocupa 40% del ancho del contenedor */
+    max-width: 20%; /* Imagen ocupa 40% del ancho del contenedor */
     height: auto;
     border-radius: 8px; /* Opcional: esquinas redondeadas */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
