@@ -169,11 +169,18 @@ a {
 }
 
 .contacto__titulo {
-    flex-wrap: wrap;
-    font-size: 2rem;
+   font-size: 2rem;
     margin-bottom: 10px;
     color: #333;
 }
+
+.contacto__subtitulo {
+    flex-wrap: wrap;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
 
 .contacto__descripcion {
     font-size: 1rem;
