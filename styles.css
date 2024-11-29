@@ -71,6 +71,11 @@ a {
 
 .presentacion__foto{
 
+    float: right; /* La imagen se posiciona a la derecha */
+    margin-left: 20px; /* Espacio entre el texto y la imagen */
+    max-width: 40%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantén la proporción de la imagen */
+ 
 }
 
 /*    .presentacion__contenedor */
