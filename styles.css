@@ -157,7 +157,7 @@ a {
     margin: 0 auto;
 }
 
-.contacto__imagen {
+.contacto__img {
     max-width: 40%; /* Imagen ocupa 40% del ancho del contenedor */
     height: auto;
     border-radius: 8px; /* Opcional: esquinas redondeadas */
