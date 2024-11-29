@@ -175,6 +175,22 @@ a {
     .navegacion__elemento a {
         font-size: 1rem;
     }
+
+ .presentacion {
+        flex-direction: column; /* Cambia la dirección a vertical */
+        text-align: center;
+    }
+
+    .presentacion__foto {
+        max-width: 50%; /* Ajusta el tamaño de la imagen */
+        margin: 0 auto; /* Centra la imagen */
+    }
+
+    .redes {
+        justify-content: center; /* Centra los enlaces */
+    }
+
+    
 }
 
 /* Pantallas grandes */
