@@ -26,12 +26,15 @@ a {
 /* ------------------------------ Sección Menú -------------------------------*/
 .cabecera {
     display: flex;
-    flex-direction: column;
+  /* flex-direction: column;
     background-color: white;
     height: 80px;
     width: 100%;
     padding: 0 25px;
-    align-items: center;
+    align-items: center;*/
+   flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 2rem;
 }
 
 
@@ -49,13 +52,23 @@ a {
 }
 
 .navegacion__lista {
-  display: none; 
+ /* display: none; */
+ display: flex;
+justify-content: space-evenly;
+align-items: center;
 }
 
 
 .navegacion__elemento a {
     font-size: 0.9rem;
 }
+
+
+
+
+
+
+
 /* ------------------------------ Sección Presentación ------------------------------*/
 
 
