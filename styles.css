@@ -63,14 +63,12 @@ a {
 /* ------------------------------ Sección Presentación ------------------------------*/
 
 .presentacion{
- /*   display: flex;
-    flex-direction: row-reverse; */
-
     display: flex;
-    align-items: center; /* Alinea verticalmente si los elementos tienen alturas diferentes */
-    justify-content: space-between; /* Distribuye el texto y la imagen */
+    flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
+    align-items: center;
+    gap: 20px; /* Espacio entre la imagen y el texto */
     padding: 20px;
-    gap: 20px; /* Espacio entre texto e imagen */
+   
  }
 
 
