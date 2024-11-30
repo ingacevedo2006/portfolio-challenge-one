@@ -147,7 +147,8 @@ a {
 .contacto {
     padding: 40px 20px;
     background-color: #EAF2FD;
-    flex-flow: column wrap;
+   /* flex-flow: column wrap;*/
+    flex-flow: row nowrap;
 }
 
 .contacto__contenedor {
