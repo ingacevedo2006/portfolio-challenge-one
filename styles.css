@@ -159,10 +159,11 @@ a {
 }
 
 .contacto__img {
-    max-width: 30%; /* Imagen ocupa 40% del ancho del contenedor */
-    height: auto;
-    border-radius: 8px; /* Opcional: esquinas redondeadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+    flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
+    max-width: 30%; /* Asegura que no exceda el 30% */
+    height: auto; /* Mantiene las proporciones */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
