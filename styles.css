@@ -151,7 +151,7 @@ a {
 
 .contacto__contenedor {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     /* flex-wrap: wrap; */
     align-items: center;
     gap: 30px; /* Espacio entre imagen y contenido */
