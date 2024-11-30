@@ -147,11 +147,12 @@ a {
 .contacto {
     padding: 40px 20px;
     background-color: #EAF2FD;
+    flex-flow: column wrap;
 }
 
 .contacto__contenedor {
     display: flex;
-    flex-flow: column wrap;
+    
     /* flex-wrap: wrap; */
     align-items: center;
     gap: 30px; /* Espacio entre imagen y contenido */
