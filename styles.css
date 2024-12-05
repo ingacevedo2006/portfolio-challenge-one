@@ -64,6 +64,7 @@ a {
 
 .presentacion{
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
     align-items: center;
     gap: 20px; /* Espacio entre la imagen y el texto */
@@ -153,9 +154,8 @@ a {
 
 .contacto__contenedor {
     display: flex;
-    
-    /* flex-wrap: wrap; */
-    align-items: center;
+    flex-wrap: nowrap;
+   align-items: center;
     gap: 30px; /* Espacio entre imagen y contenido */
     max-width: 1200px;
     margin: 0 auto;
