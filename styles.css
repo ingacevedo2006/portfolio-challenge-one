@@ -108,7 +108,11 @@ a {
      flex: 1; 
 }
 
-
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaciado entre los campos */
+}
 
 
 /* ------------------------------ Responsividad ---------------------------------------*/
