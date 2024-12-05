@@ -93,67 +93,6 @@ a {
     background-color: #EAF2FD;
 }
 
-.contacto__contenedor {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 30px; /* Espacio entre imagen y contenido */
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.contacto__img {
-    flex: 1 1 20%; /* Permite que ocupe un 30% flexible */
-    max-width: 20%; /* Asegura que no exceda el 30% */
-    height: auto; /* Mantiene las proporciones */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-.contacto__titulo {
-     flex: 1; 
-}
-
-.contacto__subtitulo {
-     flex: 1; 
-}
-
-
-.contacto__formulario {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Espaciado entre los campos */
-}
-
-.contacto__campo {
-    padding: 10px 15px;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 100%;
-}
-
-.contacto__campo--textarea {
-    height: 100px;
-    resize: none; /* Evita que el usuario cambie el tamaño del campo */
-}
-
-.contacto__boton {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.contacto__boton:hover {
-    background-color: #0056b3;
-}
-
-
 
 
 
