@@ -91,7 +91,7 @@ a {
   /*  flex-wrap: wrap; */
   /*   justify-content: space-between;*/
     gap: 20px;
-    padding: 40px 20px;
+    padding: 20px 40px;
     max-width: 800px;
     background-color: #EAF2FD;
    margin: 0 auto; /* Centrar la sección horizontalmente */  
@@ -109,6 +109,7 @@ a {
     flex-direction: column; /* Apila los elementos verticalmente */
     gap: 15px; /* Espaciado entre título, subtítulo y formulario */
     align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+    margin: 0 auto; /* Mantiene el contenido centrado */
 }
 
 .contacto__titulo {
