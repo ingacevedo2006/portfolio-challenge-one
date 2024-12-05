@@ -94,6 +94,7 @@ a {
 }
 
 .contacto__contenedor {
+    display: flex;
     flex-wrap: nowrap;
     gap: 30px; /* Espacio entre imagen y contenido */
     max-width: 1200px;
