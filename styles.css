@@ -91,9 +91,13 @@ a {
     display: flex;
     flex-direction: column; /* Los elementos (imagen y contenido) se apilan verticalmente */
     gap: 20px; /* Espaciado entre la imagen y el contenido */
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto; /* Centrar la sección horizontalmente */
+
+    max-width: 800px; /* Limita el ancho del contenedor */
+    width: 100%; /* Permite que se ajuste automáticamente en pantallas más pequeñas */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Espaciado interno para evitar que el contenido toque los bordes */
+    box-sizing: border-box; /* Incluye padding dentro del ancho total */
+    
 }
 
 .contacto__img {
