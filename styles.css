@@ -93,6 +93,18 @@ a {
     background-color: #EAF2FD;
 }
 
+.contacto__img {
+    flex: 1 
+}
+
+
+.contacto__titulo {
+     flex: 1; 
+}
+
+.contacto__subtitulo {
+     flex: 1; 
+}
 
 
 
@@ -125,7 +137,7 @@ a {
     .navegacion__elemento a {
         font-size: 1rem;
     }
-
+<!--  
  .presentacion {
         flex-direction: column; /* Cambia la dirección a vertical */
         text-align: center;
@@ -139,9 +151,9 @@ a {
     .redes {
         justify-content: center; /* Centra los enlaces */
     }
-
+-->
     
-}
+}  
 
 /* Pantallas grandes */
 @media (min-width: 1024px) {
