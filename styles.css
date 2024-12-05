@@ -133,7 +133,7 @@ a {
 
     .presentacion__foto {
         max-width: 50%; /* Ajusta el tamaño de la imagen */
-        margin: 0 auto; /* Centra la imagen */
+     /*   margin: 0 auto; /* Centra la imagen */ */
     }
 
     .redes {
