@@ -89,7 +89,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+   
     padding: 40px 20px;
     background-color: #EAF2FD;
     gap: 15px;
