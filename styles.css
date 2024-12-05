@@ -64,7 +64,7 @@ a {
 
 .presentacion{
     display: flex;
-    flex-wrap: nowrap;
+    
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
     align-items: center;
     gap: 20px; /* Espacio entre la imagen y el texto */
@@ -84,6 +84,7 @@ a {
 
 /* Contenedor de texto */
 .presentacion__contenedor {
+    flex-wrap: nowrap;
     flex: 1; /* El texto ocupará el resto del espacio disponible */
 }
 
