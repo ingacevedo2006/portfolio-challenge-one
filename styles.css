@@ -101,11 +101,11 @@ a {
 
 
 .contacto__titulo {
-     flex: 1; 
+     flex: 2; 
 }
 
 .contacto__subtitulo {
-     flex: 1; 
+     flex: 3; 
 }
 
 .contacto__formulario {
