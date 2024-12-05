@@ -87,34 +87,76 @@ a {
 
 .contacto {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   
+    flex-direction: column; /* Los elementos se apilan verticalmente */
+  /*  flex-wrap: wrap; */
+  /*   justify-content: space-between;*/
+    gap: 20px;
     padding: 40px 20px;
+    max-width: 800px;
     background-color: #EAF2FD;
-    gap: 15px;
+   margin: 0 auto; /* Centrar la sección horizontalmente */  
 }
 
-.contacto__img {
+ .contacto__img {
     flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
     max-width: 30%; /* Asegura que no exceda el 30% */
     height: auto; /* Mantiene las proporciones */
 }
 
 
+.contacto__contenido {  /* Contenedor del contenido textual y formulario */
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    gap: 15px; /* Espaciado entre título, subtítulo y formulario */
+    align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+}
+
 .contacto__titulo {
-     flex: 2; 
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 0;
 }
 
 .contacto__subtitulo {
-     flex: 3; 
+    font-size: 1.2rem;
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 0;
 }
 
 .contacto__formulario {
     display: flex;
-    flex-direction: column;
-    gap: 15px; /* Espaciado entre los campos */
+    flex-direction: column; /* Campos apilados verticalmente */
+    gap: 10px; /* Espaciado entre los campos */
 }
+
+.contacto__campo {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto__campo--textarea {
+    min-height: 100px;
+}
+
+.contacto__boton {
+    align-self: flex-start; /* Alinea el botón a la izquierda */
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto__boton:hover {
+    background-color: #0056b3;
+}
+
+
 
 
 /* ------------------------------ Responsividad ---------------------------------------*/
