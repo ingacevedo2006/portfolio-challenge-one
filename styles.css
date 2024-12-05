@@ -87,6 +87,7 @@ a {
 
 .contacto {
     display: flex;
+    flex-direction: columns;
     justify-content: space-between;
     align-items: center;
     padding: 40px 20px;
