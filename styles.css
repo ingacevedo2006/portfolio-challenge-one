@@ -92,6 +92,7 @@ a {
     align-items: center;
     padding: 40px 20px;
     background-color: #EAF2FD;
+    gap: 15px;
 }
 
 .contacto__img {
