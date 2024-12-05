@@ -64,11 +64,11 @@ a {
 
 .presentacion{
     display: flex;
-    
-    flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
+    justify-content: space-between;
     align-items: center;
-    gap: 20px; /* Espacio entre la imagen y el texto */
-    padding: 20px;*/
+   /* flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
+  /*  gap: 20px; /* Espacio entre la imagen y el texto */
+  /*  padding: 20px;*/
   
  }
 
@@ -78,34 +78,32 @@ a {
     height: auto; /* Mantén la proporción de la imagen */
     margin-left: auto; /* Empuja la imagen hacia la derecha */
     margin-right: 0;
-    
- }
+    }
 
 
-/* Contenedor de texto */
-.presentacion__contenedor {
-    flex-wrap: nowrap;
+.presentacion__contenedor { /* Contenedor de texto */
+   /* flex-wrap: nowrap;*/
     flex: 1; /* El texto ocupará el resto del espacio disponible */
 }
 
-/* Título principal */
-.presentacion__titulo {
+
+.presentacion__titulo {  /* Título principal */
     font-size: 2rem; /* Tamaño grande para el título */
     font-weight: bold; /* Negrita */
     margin-bottom: 10px; /* Espacio debajo del título */
     color: #2c3e50;
 }
 
-/* Subtítulo */
-.presentacion__subtitulo {
+
+.presentacion__subtitulo {   /* Subtítulo */
     font-size: 1.2rem; /* Tamaño más pequeño que el título */
     font-weight: normal; /* Texto normal */
     margin-bottom: 20px;
     color: #7f8c8d;
 }
 
-/* Lista de redes sociales */
-.redes {
+
+.redes {  /* Lista de redes sociales */
     list-style: none; /* Elimina los puntos de lista */
     padding: 0;
     display: flex;
