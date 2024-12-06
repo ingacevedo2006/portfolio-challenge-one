@@ -74,6 +74,20 @@ a {
   /* padding: 15px 65px;  */
 }
 
+.presentacion__titulo{
+    font-size: 52px; /* Tamaño grande para el título 
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    color: #464646;
+}
+
+.presentacion__subtitulo{
+    font-size: 22px; /* Tamaño más pequeño que el título */
+    font-weight: normal; /* Texto normal */
+    margin-bottom: 20px;
+    color: #464646;
+}
+
 .redes {  /* Lista de redes sociales */
     list-style: none; /* Elimina los puntos de lista */
     padding: 0;
