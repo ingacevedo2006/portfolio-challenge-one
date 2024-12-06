@@ -160,7 +160,7 @@ a {
 /*------------------------------ Sección de Pie de Página ---------------------------------*/
 
 .footer{
-     justify-content: center; /* Centra los enlaces */
+     align-items: center;
 }
 
 /* ------------------------------ Responsividad ---------------------------------------*/
