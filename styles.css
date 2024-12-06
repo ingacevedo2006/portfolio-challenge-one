@@ -69,6 +69,14 @@ a {
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
   
  }
+.presentacion__contenedor{
+   display: flex;
+   flex-direction: column; /* Apila los elementos verticalmente */
+   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
+   align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+   margin: 0 auto; /* Centra horizontalmente */ 
+}
+
 
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
