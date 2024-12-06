@@ -90,7 +90,7 @@ a {
 .contacto {
     display: flex;
     gap: 16px; /* Espaciado entre la imagen y el contenido */
-    padding: 10px; /* Espaciado interno para evitar que el contenido toque los bordes */
+    padding: 64px; /* Espaciado interno para evitar que el contenido toque los bordes */
     max-width: 800px; /* Limita el ancho del contenedor */
     width: 100%; /* Permite que se ajuste automáticamente en pantallas más pequeñas */
     margin: 0 auto; /* Centra horizontalmente */
