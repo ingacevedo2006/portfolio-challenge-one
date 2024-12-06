@@ -58,8 +58,6 @@ a {
 
 
 
-
-
 /* ------------------------------ Sección Presentación ------------------------------*/
 
 .presentacion{
@@ -85,6 +83,7 @@ a {
     display: flex;
     background-color: #EAF2FD; /* Fondo para diferenciar la sección */
     justify-content: flex-start;
+    align-items: center;
 }
 
 .sobre-mi__contenido{
