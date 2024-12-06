@@ -94,6 +94,7 @@ a {
    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
    box-sizing: border-box; /* Incluye padding en el ancho total */
    gap: 15px;
+    margin: 0 auto; /* Centra horizontalmente */
     }
 
 .contacto__img {
