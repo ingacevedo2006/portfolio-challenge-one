@@ -90,7 +90,7 @@ a {
     gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
     align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
     margin: 0 auto; /* Centra horizontalmente */
-    padding: 40px 20px
+    padding: 40px 40px
     
 }
 
