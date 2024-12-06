@@ -78,6 +78,7 @@ a {
    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
    margin: 0 auto; /* Centra horizontalmente */ 
    padding: 15px 65px;  
+   max-width: 1136px; /* Limita el ancho */
 }
 
 .presentacion__titulo{
