@@ -29,6 +29,12 @@ a {
     flex-flow: row nowrap;
     justify-content: space-between;
     margin-top: 2rem;
+   
+
+    padding: 20px 40px; /* Espaciado lateral */
+    margin: 0 auto; /* Centra la sección horizontalmente */
+    max-width: 1136px; /* Limita el ancho */
+ 
 }
 
 
@@ -45,14 +51,12 @@ a {
 }
 
 .navegacion__lista {
-    
-       flex-direction: column;
+        flex-direction: column;
         justify-content: flex-start;
         padding-top: 15px;
         gap: 33px;
+       padding: 10px 20px 30px 40px; /* top, right, bottom, left */
  
- 
-
 }
 
 
