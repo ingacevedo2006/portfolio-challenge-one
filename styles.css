@@ -115,13 +115,13 @@ a {
 .contacto__titulo {
     font-size: 2rem;
     font-weight: bold;
-    text-align: center; /* Centra el texto horizontalmente */
+    text-align: left; /* Centra el texto horizontalmente */
     margin: 0;
 }
 
 .contacto__subtitulo {
     font-size: 1.2rem;
-    text-align: center; /* Centra el texto horizontalmente */
+    text-align: left; /* Centra el texto horizontalmente */
     margin: 0;
 }
 
