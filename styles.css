@@ -94,7 +94,7 @@ a {
     max-width: 800px; /* Limita el ancho del contenedor */
     width: 100%; /* Permite que se ajuste automáticamente en pantallas más pequeñas */
     margin: 0 auto; /* Centra horizontalmente */
-  
+    background-color: #EAF2FD;
 }
 
 .contacto__img {
