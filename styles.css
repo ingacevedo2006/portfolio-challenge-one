@@ -39,18 +39,20 @@ a {
 }
 
 .cabecera__titulo {
-    font-size: 52px;
+    font-size: 16px;
     text-align: center;
+    padding: 15px 65px;
 }
 
 .navegacion__lista {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 14px; /* Tamaño más pequeño que el título */
-    font-weight: normal; /* Texto normal */
-    margin-bottom: 20px;
-    color: #464646;
+    
+       flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+ 
+ 
+
 }
 
 
