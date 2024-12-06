@@ -103,8 +103,7 @@ a {
     max-width: 30%; /* Asegura que no exceda el 30% */
     height: auto; /* Mantiene las proporciones */
     align-self: flex-start; /* Alinea el botón a la izquierda */
-    Width: 464px;
-    Height: 593px;
+
     }
 
 /* Contenedor del contenido textual y formulario */
