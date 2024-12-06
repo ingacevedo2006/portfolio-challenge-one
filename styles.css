@@ -89,12 +89,13 @@ a {
 /* Estilos generales */
 .contacto {
     display: flex;
-    gap: 20px; /* Espaciado entre la imagen y el contenido */
-    padding: 20px; /* Espaciado interno para evitar que el contenido toque los bordes */
+    gap: 16px; /* Espaciado entre la imagen y el contenido */
+    padding: 10px; /* Espaciado interno para evitar que el contenido toque los bordes */
     max-width: 800px; /* Limita el ancho del contenedor */
     width: 100%; /* Permite que se ajuste automáticamente en pantallas más pequeñas */
     margin: 0 auto; /* Centra horizontalmente */
     background-color: #EAF2FD;
+    top: 64px
 }
 
 .contacto__img {
@@ -102,6 +103,8 @@ a {
     max-width: 30%; /* Asegura que no exceda el 30% */
     height: auto; /* Mantiene las proporciones */
     align-self: flex-start; /* Alinea el botón a la izquierda */
+    Width: 464px;
+    Height: 593px;
     }
 
 /* Contenedor del contenido textual y formulario */
