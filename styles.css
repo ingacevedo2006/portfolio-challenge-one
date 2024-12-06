@@ -28,9 +28,7 @@ a {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin-top: 2rem;
-   
-    padding: 20px 40px; /* Espaciado lateral */
+    padding: 15px 65px;; /* Espaciado lateral */
     margin: 0 auto; /* Centra la sección horizontalmente */
     max-width: 1136px; /* Limita el ancho */
  
