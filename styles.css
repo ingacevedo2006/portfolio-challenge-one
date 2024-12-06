@@ -84,6 +84,7 @@ a {
 .sobre-mi{
     display: flex;
     background-color: #EAF2FD; /* Fondo para diferenciar la sección */
+    justify-content: flex-start;
 }
 
 .sobre-mi__titulo{
