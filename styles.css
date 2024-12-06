@@ -108,8 +108,8 @@ a {
 }
 
 .sobre-mi__firma{
-    flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
-    max-width: 30%; /* Asegura que no exceda el 30% */
+    flex: 1 1 20%; /* Permite que ocupe un 30% flexible */
+    max-width: 20%; /* Asegura que no exceda el 30% */
     height: auto; /* Mantiene las proporciones */
   /*  align-self: flex-start; /* Alinea el botón a la izquierda */  */
     margin: 0 auto; /* Centra horizontalmente */
