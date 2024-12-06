@@ -65,6 +65,7 @@ a {
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
   
  }
+
 .presentacion__contenedor{
    display: flex;
    flex-direction: column; /* Apila los elementos verticalmente */
@@ -73,6 +74,12 @@ a {
    margin: 0 auto; /* Centra horizontalmente */ 
 }
 
+.redes {  /* Lista de redes sociales */
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre los elementos de la lista */
+}
 
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
