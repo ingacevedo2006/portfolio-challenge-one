@@ -79,10 +79,11 @@ a {
 }
 
 .presentacion__titulo{
-    font-size: 52px; /* Tamaño grande para el título 
+    font-size: 52px; /* Tamaño grande para el título */
     font-weight: bold; /* Negrita */
     margin-bottom: 10px; /* Espacio debajo del título */
     color: #464646;
+   padding: 20px;
 }
 
 .presentacion__subtitulo{
@@ -90,6 +91,7 @@ a {
     font-weight: normal; /* Texto normal */
     margin-bottom: 20px;
     color: #464646;
+  padding: 20px;
 }
 
 .redes {  /* Lista de redes sociales */
