@@ -69,7 +69,7 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
-  
+    max-width: 1136px; /* Limita el ancho */
  }
 
 .presentacion__contenedor{
@@ -79,7 +79,7 @@ a {
    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
    margin: 0 auto; /* Centra horizontalmente */ 
    padding: 15px 65px;  
-   max-width: 1136px; /* Limita el ancho */
+   
 }
 
 .presentacion__foto{
