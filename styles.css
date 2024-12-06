@@ -117,8 +117,7 @@ a {
   font-weight: bold;
   margin-bottom: 10px;
   color: #333;
-  align-content: space-around;
-}
+  }
 
 .contacto__subtitulo {
    display: flex;
