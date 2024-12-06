@@ -81,7 +81,17 @@ a {
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
 
+.sobre-mi{
+    display: flex;
+    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
+}
 
+.sobre-mi__titulo{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #464646; 
+}
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
 
