@@ -93,7 +93,7 @@ a {
    padding: 40px 20px; /* Espaciado interno arriba/abajo y en los lados */
    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
    box-sizing: border-box; /* Incluye padding en el ancho total */
-   gap: 15px;
+   gap: 8px;
    
     }
 
