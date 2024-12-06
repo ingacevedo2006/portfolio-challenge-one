@@ -101,9 +101,7 @@ a {
 .contacto__img {
     width: 100%;
     max-height: 300px;
-    object-fit: cover; /* Ajusta la imagen para que se vea bien */
-    border-radius: 10px;
-}
+    }
 
 /* Contenedor del contenido textual y formulario */
 .contacto__contenido {
