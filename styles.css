@@ -1,4 +1,4 @@
-
+ 
 :root {
     --color-de-fondo: #F5F5F5;
     --color-de-fondo-menu: #ffffff;
@@ -106,7 +106,7 @@ a {
 }
 
 .sobre-mi__texto{
-   font-size: 22px;
+   font-size: 16px;
    margin-bottom: 10px;
    color: #464646;
 }
