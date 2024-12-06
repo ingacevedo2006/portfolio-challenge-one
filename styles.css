@@ -162,7 +162,9 @@ a {
 /*------------------------------ Sección de Pie de Página ---------------------------------*/
 
 .footer{
-     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* ------------------------------ Responsividad ---------------------------------------*/
