@@ -89,7 +89,6 @@ a {
 /* Estilos generales */
 .contacto {
     display: flex;
-    flex-direction: column; /* Los elementos (imagen y contenido) se apilan verticalmente */
     gap: 20px; /* Espaciado entre la imagen y el contenido */
     padding: 20px; /* Espaciado interno para evitar que el contenido toque los bordes */
     max-width: 800px; /* Limita el ancho del contenedor */
