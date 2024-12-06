@@ -94,7 +94,7 @@ a {
    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
    box-sizing: border-box; /* Incluye padding en el ancho total */
    gap: 15px;
-    margin: 0 auto; /* Centra horizontalmente */
+   
     }
 
 .contacto__img {
@@ -111,6 +111,7 @@ a {
     flex-direction: column; /* Apila los elementos verticalmente */
     gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
     align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+     margin: 0 auto; /* Centra horizontalmente */
 }
 
 .contacto__titulo {
