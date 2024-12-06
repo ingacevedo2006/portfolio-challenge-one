@@ -108,7 +108,7 @@ a {
 .contacto__contenido {
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
-    gap: 10px; /* Espaciado entre el título, subtítulo y formulario */
+    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
     align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
 }
 
