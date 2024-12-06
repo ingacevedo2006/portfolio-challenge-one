@@ -72,6 +72,7 @@ a {
    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
    align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
    margin: 0 auto; /* Centra horizontalmente */ 
+   padding: 15px 65px;
 }
 
 .redes {  /* Lista de redes sociales */
