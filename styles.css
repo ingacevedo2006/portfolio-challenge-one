@@ -101,7 +101,7 @@ a {
     flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
     max-width: 30%; /* Asegura que no exceda el 30% */
     height: auto; /* Mantiene las proporciones */
-    align-self: flex-start; /* Alinea el botón a la izquierda */
+    
     margin: 0 auto; /* Centra horizontalmente */
     }
 
@@ -111,7 +111,7 @@ a {
     flex-direction: column; /* Apila los elementos verticalmente */
     gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
     align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
-     margin: 0 auto; /* Centra horizontalmente */
+    margin: 0 auto; /* Centra horizontalmente */
 }
 
 .contacto__titulo {
