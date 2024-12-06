@@ -47,6 +47,10 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 14px; /* Tamaño más pequeño que el título */
+    font-weight: normal; /* Texto normal */
+    margin-bottom: 20px;
+    color: #464646;
 }
 
 
