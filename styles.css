@@ -156,9 +156,11 @@ a {
     background-color: #0056b3;
 }
 
+/*------------------------------ Sección de Pie de Página ---------------------------------*/
 
-
-
+.footer{
+     justify-content: center; /* Centra los enlaces */
+}
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
