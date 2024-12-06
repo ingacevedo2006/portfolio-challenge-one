@@ -106,7 +106,6 @@ a {
 /* Contenedor del contenido textual y formulario */
 .contacto__contenido {
     display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
     gap: 15px; /* Espaciado entre el título, subtítulo y formulario */
     align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
 }
