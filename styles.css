@@ -87,6 +87,17 @@ a {
     justify-content: flex-start;
 }
 
+.sobre-mi__contenido{
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
+    align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+    margin: 0 auto; /* Centra horizontalmente */
+    
+}
+
+
+
 .sobre-mi__titulo{
   font-size: 32px;
   font-weight: bold;
