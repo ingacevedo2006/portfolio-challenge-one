@@ -88,7 +88,7 @@ a {
 
 /* Estilos generales */
 .contacto {
-    
+   display: flex; 
    width: 100%; /* Ocupa todo el ancho de la página */
    padding: 40px 20px; /* Espaciado interno arriba/abajo y en los lados */
    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
