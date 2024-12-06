@@ -83,10 +83,10 @@ a {
 }
 
 .presentacion__foto{
-
-
- 
-}
+      flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
+      max-width: 30%; /* Asegura que no exceda el 30% */
+      height: auto; /* Mantiene las proporciones */
+ }
 
 
 
