@@ -81,6 +81,22 @@ a {
     gap: 15px; /* Espacio entre los elementos de la lista */
 }
 
+.redes__img a {
+    text-decoration: none;
+    color: #3498db; /* Color azul para los enlaces */
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacio entre texto e imagen */
+    transition: color 0.3s ease;
+}
+
+.redes__img a:hover {
+    color: #2c3e50; /* Cambia de color al pasar el mouse */
+}
+
+
+
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
 
