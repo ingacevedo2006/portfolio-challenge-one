@@ -163,9 +163,8 @@ a {
 
 .rodapie__container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-     background-color: #FFFFFF;
+    background-color: #FFFFFF;
     padding: 32px;
     gap: 10px;
 }
