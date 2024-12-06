@@ -70,9 +70,8 @@ a {
    display: flex;
    flex-direction: column; /* Apila los elementos verticalmente */
    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
-   align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
    margin: 0 auto; /* Centra horizontalmente */ 
-   padding: 15px 65px;
+  /* padding: 15px 65px;  */
 }
 
 .redes {  /* Lista de redes sociales */
@@ -80,6 +79,7 @@ a {
     padding: 0;
     display: flex;
     gap: 15px; /* Espacio entre los elementos de la lista */
+  align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
 }
 
 .redes__img a {
@@ -112,7 +112,7 @@ a {
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
     gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
-    align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+    align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
     margin: 0 auto; /* Centra horizontalmente */
     padding: 15px 65px;
     
