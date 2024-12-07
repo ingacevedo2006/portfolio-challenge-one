@@ -31,6 +31,11 @@ a {
     padding: 15px 65px;; /* 15px de espacio en la parte superior e inferior. 65px de espacio en los lados izquierdo y derecho.*/ 
    /* margin: 0 auto; /* Centra la sección horizontalmente */  
    --- max-width: 1136px; /* Limita el ancho */
+  width: 1136px; /* Ancho fijo */
+
+
+
+ 
 }
 
 
@@ -42,7 +47,8 @@ a {
 
 .cabecera__titulo {
     font-size: 6px;
-    text-align: center;
+/*   text-align: center;   */
+    align-self: flex-start; /* Alinea el botón a la izquierda */
  /*   padding: 15px 65px;  */
 }
 
@@ -83,8 +89,8 @@ a {
 }
 
 .presentacion__foto{
-      flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
-      max-width: 30%; /* Asegura que no exceda el 30% */
+      flex: 1 1 20%; /* Permite que ocupe un 30% flexible */
+      max-width: 20%; /* Asegura que no exceda el 30% */
       height: auto; /* Mantiene las proporciones */
  }
 
@@ -269,6 +275,7 @@ a {
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
+
 /* Tablets y pantallas más grandes */
 @media (min-width: 768px) {
     .cabecera {
@@ -314,13 +321,28 @@ a {
 }  
 
 /* Pantallas grandes */
-@media (min-width: 1024px) {
-    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
-    .cabecera__titulo {
-        font-size: 1.8rem;
+@media (max-width: 1024px) {
+    /* Estilos para tablets (pantallas entre 768px y 1024px) */
+  
+   .cabecera {
+    max-width: 768px; /* Reducir el ancho máximo */
+    padding: 15px; /* Menos espaciado interno */
+  }
+ 
+ 
+     .cabecera__titulo {
+        font-size: 1.1rem;
     }
 
     .navegacion__elemento a {
         font-size: 1.1rem;
     }
 }
+
+
+
+
+
+
+
+
