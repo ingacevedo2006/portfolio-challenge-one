@@ -48,7 +48,6 @@ body, ul, li {
 .cabecera__logo {
     background-image: url(../imagenes/logo.png);
     max-width: 80px;
-    height: 50px; /* Tamaño del logo */
     margin-right: 10px; /* Espacio entre el logo y el título */
 }
 
