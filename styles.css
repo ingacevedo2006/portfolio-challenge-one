@@ -27,7 +27,7 @@ a {
 .cabecera {
     display: flex;
    /* flex-flow: row nowrap;  */
-    justify-content: space-between;
+ /*   justify-content: space-between;   */
     padding: 15px 65px;; /* 15px de espacio en la parte superior e inferior. 65px de espacio en los lados izquierdo y derecho.*/ 
    /* margin: 0 auto; /* Centra la sección horizontalmente */  
    --- max-width: 1136px; /* Limita el ancho */
