@@ -321,16 +321,23 @@ a {
 }  
 
 /* Pantallas grandes */
-@media (max-width: 1024px) {
+@media (min-width:1440px)) {
     /* Estilos para tablets (pantallas entre 768px y 1024px) */
-  
-   .cabecera {
-    max-width: 768px; /* Reducir el ancho máximo */
-    padding: 15px; /* Menos espaciado interno */
+
+  html {
+    font-size: 18px; /* Aumenta la base de fuente a 18px */
   }
+
+ 
+   .cabecera {
+    max-width: 1400px; /* Aumenta el ancho máximo del contenedor */
+    padding: 40px; /* Más espaciado interno */
+    font-size: 2rem; /* 2 × 18px = 36px */
+    background-color: #ffffff; /* Fondo más limpio */
+   }
  
  
-     .cabecera__titulo {
+    .cabecera__titulo {
         font-size: 1.1rem;
     }
 
