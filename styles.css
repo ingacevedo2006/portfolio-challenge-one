@@ -322,9 +322,8 @@ a {
 
 /* Pantallas grandes */
 @media (min-width:1440px)) {
-    /* Estilos para tablets (pantallas entre 768px y 1024px) */
-
-  html {
+ 
+  .html {
     font-size: 18px; /* Aumenta la base de fuente a 18px */
   }
 
