@@ -24,32 +24,40 @@ a {
 }
 
 /* ------------------------------ Sección Menú -------------------------------*/
+
+/* Reseteo básico */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 .cabecera {
-    display: flex;
-   /* flex-flow: row nowrap;  */
- /*   justify-content: space-between;   */
+    display: flex; /* Activar Flexbox */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Logo/Título a la izquierda y Navegación a la derecha */
     padding: 15px 65px;; /* 15px de espacio en la parte superior e inferior. 65px de espacio en los lados izquierdo y derecho.*/ 
-   /* margin: 0 auto; /* Centra la sección horizontalmente */  
-   --- max-width: 1136px; /* Limita el ancho */
-  width: 1136px; /* Ancho fijo */
+    background-color: #f8f9fa; /* Fondo claro */
+    border-bottom: 2px solid #ddd; /* Línea inferior para separar la cabecera */
+    width: 1136px; /* Ancho fijo */
 
-
-
- 
 }
 
 
 .cabecera__logo {
     background-image: url(../imagenes/logo.png);
-   /* padding: 15px 65px;*/
     max-width: 80px;
+    height: 50px; /* Tamaño del logo */
+    margin-right: 10px; /* Espacio entre el logo y el título */
 }
 
+
+
 .cabecera__titulo {
-    font-size: 6px;
-/*   text-align: center;   */
-    align-self: flex-start; /* Alinea el botón a la izquierda */
- /*   padding: 15px 65px;  */
+    font-size: 1.5rem; /* Tamaño del título */
+    color: #333; /* Color del texto */
+    margin: 0; /* Eliminar márgenes extra */
 }
 
 .navegacion__lista {
@@ -58,15 +66,20 @@ a {
      gap: 33px;
      font-size: 14px;
    /*   padding: 10px 20px 30px 40px; /* top, right, bottom, left */  */
- 
 }
 
+ 
 
 .navegacion__elemento a {
     font-size: 0.9rem;
+   color: #007bff; /* Color del enlace */
+    padding: 5px 10px; /* Espaciado interno en los enlaces */
+    transition: color 0.3s ease; /* Transición suave */
 }
 
-
+.navegacion__elemento a:hover {
+    color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
 
 /* ------------------------------ Sección Presentación ------------------------------*/
 
