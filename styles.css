@@ -220,7 +220,7 @@ body, ul, li {
 
 .habilidades__lista{
     list-style: none; /* Elimina los puntos de lista */
-    padding: 0;
+    padding: 16px;
     display: flex;
     gap: 15px; /* Espacio entre los elementos de la lista */
   align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
