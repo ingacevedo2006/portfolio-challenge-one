@@ -192,12 +192,45 @@ body, ul, li {
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
+.habilidades{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+
+
+
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
+
+.aficiones{
+    display: flex; /* Activar Flexbox */
+    justify-content: flex-start;
+    align-items: center; /* Centrar verticalmente */
+    padding: 15px 65px;; /* 15px de espacio en la parte superior e inferior. 65px de espacio en los lados izquierdo y derecho.*/ 
+    background-color: #f8f9fa; /* Fondo claro */
+    border-bottom: 2px solid #ddd; /* Línea inferior para separar la cabecera */
+    width: 1136px; /* Ancho fijo */
+
+ 
+}
+
+/*------------------------------ Sección de Formación --------------------------------*/
+
+.formacion{
+    display: flex;
+    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
 
+.proyectos {
+ display: flex;
+}
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
 
