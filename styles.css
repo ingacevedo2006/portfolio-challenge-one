@@ -204,7 +204,7 @@ body, ul, li {
    flex-direction: column; /* Apila los elementos verticalmente */
    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
    margin: 0 auto; /* Centra horizontalmente */ 
-   padding: 15px 65px;  
+  /* padding: 15px 65px;  */
 }
 
 
@@ -213,7 +213,7 @@ body, ul, li {
     font-weight: bold; /* Negrita */
     margin-bottom: 10px; /* Espacio debajo del título */
     color: #464646;
-    padding: 20px;
+   /* padding: 20px;   */
 }
 
 
@@ -234,7 +234,6 @@ body, ul, li {
 
 .aficiones {
     display: flex;
-    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
     justify-content: flex-start;
     align-items: center;
 }
