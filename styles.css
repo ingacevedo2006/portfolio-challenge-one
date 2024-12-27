@@ -91,7 +91,7 @@ body, ul, li {
  }
 
 .presentacion__contenedor{
-   display: flex;
+  display: flex;
   justify-content: space-between;
    flex-direction: column; /* Apila los elementos verticalmente */
    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
@@ -194,19 +194,17 @@ body, ul, li {
 
 .habilidades {
     display: flex;
-    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
     justify-content: flex-start;
     align-items: center;
 }
 
 .habilidades__contenedor {
-    display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
-    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
-    align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
-    margin: 0 auto; /* Centra horizontalmente */
-    padding: 15px 65px;
-    
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column; /* Apila los elementos verticalmente */
+   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
+   margin: 0 auto; /* Centra horizontalmente */ 
+   padding: 15px 65px;  
 }
 
 
@@ -240,12 +238,12 @@ body, ul, li {
 }
 
 .aficiones__contenedor{
-    display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
-    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
-    align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
-    margin: 0 auto; /* Centra horizontalmente */
-    padding: 15px 65px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column; /* Apila los elementos verticalmente */
+   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
+   margin: 0 auto; /* Centra horizontalmente */ 
+   padding: 15px 65px;  
 }
 
 
@@ -281,12 +279,12 @@ body, ul, li {
 
 
 .formacion__contenedor{
-    display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
-    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
-    align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
-    margin: 0 auto; /* Centra horizontalmente */
-    padding: 15px 65px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column; /* Apila los elementos verticalmente */
+   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
+   margin: 0 auto; /* Centra horizontalmente */ 
+   padding: 15px 65px;  
 }
 
 .formacion__titulo {
@@ -314,6 +312,12 @@ body, ul, li {
 }
 
 .proyectos__contenedor{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column; /* Apila los elementos verticalmente */
+   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
+   margin: 0 auto; /* Centra horizontalmente */ 
+   padding: 15px 65px;  
 }
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
