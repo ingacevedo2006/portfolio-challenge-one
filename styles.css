@@ -192,19 +192,22 @@ body, ul, li {
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
-.habilidades{
-    display: flex;
+.habilidades {
+    display: flex; /* Activar Flexbox */
     justify-content: flex-start;
-    align-items: center;
- 
+    align-items: center; /* Centrar verticalmente */
+    padding: 15px 65px;; /* 15px de espacio en la parte superior e inferior. 65px de espacio en los lados izquierdo y derecho.*/ 
+    background-color: #f8f9fa; /* Fondo claro */
+    border-bottom: 2px solid #ddd; /* Línea inferior para separar la cabecera */
+    width: 1136px; /* Ancho fijo */
 }
 
 .habilidades__titulo{
-    font-size: 52px; /* Tamaño grande para el título */
+    font-size: 32px; /* Tamaño grande para el título */
     font-weight: bold; /* Negrita */
     margin-bottom: 10px; /* Espacio debajo del título */
     color: #464646;
-   padding: 20px;
+    padding: 20px;
 }
 
 .habilidades__lista{
@@ -256,10 +259,13 @@ body, ul, li {
 /*------------------------------ Sección de Formación --------------------------------*/
 
 .formacion{
-    display: flex;
-    background-color: #EAF2FD; /* Fondo para diferenciar la sección */
+    display: flex; /* Activar Flexbox */
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; /* Centrar verticalmente */
+    padding: 15px 65px;; /* 15px de espacio en la parte superior e inferior. 65px de espacio en los lados izquierdo y derecho.*/ 
+    background-color: #EAF2FD; /* Fondo para diferenciar la sección *
+    border-bottom: 2px solid #ddd; /* Línea inferior para separar la cabecera */
+    width: 1136px; /* Ancho fijo */
 }
 
 
