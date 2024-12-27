@@ -216,6 +216,8 @@ body, ul, li {
     padding: 20px;
 }
 
+
+
 .habilidades__lista{
     list-style: none; /* Elimina los puntos de lista */
     padding: 0;
@@ -252,7 +254,6 @@ body, ul, li {
     font-weight: bold; /* Negrita */
     margin-bottom: 10px; /* Espacio debajo del título */
     color: #464646;
-   padding: 20px;
 }
 
 
@@ -292,7 +293,6 @@ body, ul, li {
     font-weight: bold; /* Negrita */
     margin-bottom: 10px; /* Espacio debajo del título */
     color: #464646;
-   padding: 20px;
 }
 
 
