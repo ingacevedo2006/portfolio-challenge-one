@@ -199,12 +199,29 @@ body, ul, li {
  
 }
 
+.habilidades__titulo{
+    font-size: 52px; /* Tamaño grande para el título */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    color: #464646;
+   padding: 20px;
+}
+
+.habilidades__lista{
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre los elementos de la lista */
+  align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+}
+
+.habilidades__elemento{}
 
 
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
-.aficiones{
+.aficiones {
     display: flex; /* Activar Flexbox */
     justify-content: flex-start;
     align-items: center; /* Centrar verticalmente */
@@ -213,8 +230,28 @@ body, ul, li {
     border-bottom: 2px solid #ddd; /* Línea inferior para separar la cabecera */
     width: 1136px; /* Ancho fijo */
 
+}
+
+.aficiones__titulo {
+    font-size: 52px; /* Tamaño grande para el título */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    color: #464646;
+   padding: 20px;
+}
+
+
+.aficiones__lista {
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre los elementos de la lista */
+   align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
  
 }
+
+
+
 
 /*------------------------------ Sección de Formación --------------------------------*/
 
