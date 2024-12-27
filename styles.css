@@ -71,7 +71,7 @@ body, ul, li {
 
 .navegacion__elemento a {
     font-size: 0.9rem;
-   color: #007bff; /* Color del enlace */
+    color: #007bff; /* Color del enlace */
     padding: 5px 10px; /* Espaciado interno en los enlaces */
     transition: color 0.3s ease; /* Transición suave */
 }
@@ -193,40 +193,54 @@ body, ul, li {
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
 .habilidades {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+     display: flex;
+    justify-content: center; /* Centra el contenedor en el eje horizontal */
+    align-items: center; /* Centra el contenedor en el eje vertical */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
 }
 
 .habilidades__contenedor {
-   display: flex;
-   justify-content: space-between;
-   flex-direction: column; /* Apila los elementos verticalmente */
-   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
-   margin: 0 auto; /* Centra horizontalmente */ 
-  /* padding: 15px 65px;  */
-}
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    gap: 20px; /* Espacio entre el título y la lista */
+    width: 90%; /* Controla el ancho del contenedor */
+    max-width: 600px; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra horizontalmente dentro del padre */
+ }
 
 
 .habilidades__titulo{
-    font-size: 32px; /* Tamaño grande para el título */
+
+     font-size: 32px; /* Tamaño grande para destacar */
     font-weight: bold; /* Negrita */
-    margin-bottom: 10px; /* Espacio debajo del título */
+    text-align: center; /* Centra el texto */
     color: #464646;
-   /* padding: 20px;   */
 }
 
 
 
 .habilidades__lista{
-    list-style: none; /* Elimina los puntos de lista */
-    padding: 16px;
+     list-style: none; /* Elimina los puntos de lista */
     display: flex;
-    gap: 15px; /* Espacio entre los elementos de la lista */
-  align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+    justify-content: center; /* Centra los elementos en línea */
+    flex-wrap: wrap; /* Permite que los iconos se ajusten si no caben en una línea */
+    gap: 15px; /* Espacio entre los iconos */
+    padding: 0;
 }
 
-.habilidades__elemento{}
+.habilidades__elemento{
+    width: 50px; /* Controla el tamaño de los iconos */
+    height: 50px;
+    object-fit: contain; /* Asegura que los iconos mantengan sus proporciones */
+ 
+}
+
+.habilidades__icono {
+    width: 50px; /* Controla el tamaño de los iconos */
+    height: 50px;
+    object-fit: contain; /* Asegura que los iconos mantengan sus proporciones */
+}
 
 
 
