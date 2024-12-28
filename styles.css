@@ -1,4 +1,4 @@
- 
+  
 :root {
     --color-de-fondo: #F5F5F5;
     --color-de-fondo-menu: #ffffff;
@@ -235,17 +235,20 @@ body, ul, li {
 }
 
 .habilidades__elemento{
-    width: 50px; /* Controla el tamaño de los iconos */
-    height: 50px;
-    object-fit: contain; /* Asegura que los iconos mantengan sus proporciones */
-
-}
+    background-color: white;
+    width: 176px;
+   height: 174px;
+   display: flex;
+   align-items: flex-end;
+  }
 
 .habilidades__icono {
     width: 50px; /* Controla el tamaño de los iconos */
     height: 50px;
     object-fit: contain; /* Asegura que los iconos mantengan sus proporciones */
 }
+
+
 
 
 
