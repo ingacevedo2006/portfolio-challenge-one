@@ -252,7 +252,7 @@ body, ul, li {
 /* Ícono */
 .habilidades__icono {
     position: absolute;
-    bottom: 30px; /* Separación desde la parte inferior */
+    bottom: 40px; /* Separación desde la parte inferior */
     left: 10px; /* Separación desde la izquierda */
     width: 40px; /* Tamaño del ícono más pequeño */
     height: 40px;
