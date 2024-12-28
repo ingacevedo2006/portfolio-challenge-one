@@ -223,12 +223,15 @@ body, ul, li {
 
 /* Lista de habilidades */
 .habilidades__lista {
-    display: flex;
-    flex-wrap: wrap; /* Permite que los elementos ocupen varias filas */
+    display: flex; /* Habilita Flexbox */
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
     gap: 20px; /* Espaciado visible entre los elementos */
-    justify-content: center; /* Centra los elementos */
-    padding: 0;
-    list-style: none; /* Elimina puntos de lista */
+    padding: 0; /* Elimina el padding predeterminado del ul */
+    margin: 0 auto; /* Centra horizontalmente el contenedor si es necesario */
+    list-style: none; /* Elimina los puntos de la lista */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+
 }
 
 /* Cada elemento de la lista */
