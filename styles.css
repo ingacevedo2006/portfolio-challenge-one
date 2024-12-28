@@ -242,8 +242,8 @@ body, ul, li {
     align-items: center;
     justify-content: flex-end; /* Asegura que el contenido esté en la parte inferior */
     padding: 15px;
-    width: 120px; /* Ancho fijo del recuadro */
-    height: 150px; /* Alto fijo del recuadro */
+    width: 176px; /* Ancho fijo del recuadro */
+    height: 174px; /* Alto fijo del recuadro */
     text-align: center; /* Centra el texto */
     transition: transform 0.3s ease; /* Efecto de interacción */
 }
@@ -254,8 +254,8 @@ body, ul, li {
 
 /* Ícono */
 .habilidades__icono {
-    width: 60px; /* Tamaño del ícono */
-    height: 60px;
+    width: 24px; /* Tamaño del ícono */
+    height: 37px;
     margin-bottom: 10px; /* Espacio entre el ícono y el texto */
 }
 
