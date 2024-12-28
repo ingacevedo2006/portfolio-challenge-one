@@ -221,34 +221,50 @@ body, ul, li {
     margin-bottom: 10px; /* Espacio debajo del título */
 }
 
-
-
-.habilidades__lista{
-    list-style: none; /* Elimina los puntos de lista */
+/* Lista de habilidades */
+.habilidades__lista {
     display: flex;
-    justify-content: center; /* Centra los elementos en línea */
-    flex-wrap: wrap; /* Permite que los iconos se ajusten si no caben en una línea */
-    gap: 30px; /* Espacio entre los iconos */
+    flex-wrap: wrap; /* Permite que los elementos ocupen varias filas */
+    gap: 20px; /* Espaciado visible entre los elementos */
+    justify-content: center; /* Centra los elementos */
     padding: 0;
+    list-style: none; /* Elimina puntos de lista */
+}
+
+/* Cada elemento de la lista */
+.habilidades__elemento {   
     background-color: #ffffff; /* Fondo blanco */
     border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex;
+    flex-direction: column; /* Apila ícono y texto verticalmente */
+    align-items: center;
+    justify-content: flex-end; /* Asegura que el contenido esté en la parte inferior */
+    padding: 15px;
+    width: 120px; /* Ancho fijo del recuadro */
+    height: 150px; /* Alto fijo del recuadro */
+    text-align: center; /* Centra el texto */
+    transition: transform 0.3s ease; /* Efecto de interacción */
 }
 
-.habilidades__elemento{
-    background-color: white;
-    width: 176px;
-   height: 174px;
-   display: flex;
-   align-items: flex-end;
-  }
+.habilidades__elemento:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
 
+/* Ícono */
 .habilidades__icono {
-    width: 50px; /* Controla el tamaño de los iconos */
-    height: 50px;
-    object-fit: contain; /* Asegura que los iconos mantengan sus proporciones */
+    width: 60px; /* Tamaño del ícono */
+    height: 60px;
+    margin-bottom: 10px; /* Espacio entre el ícono y el texto */
 }
 
-
+/* Nombre de la habilidad */
+.habilidades__nombre {
+    font-size: 14px;
+    font-weight: 500; /* Negrita ligera */
+    color: #555;
+}
 
 
 
