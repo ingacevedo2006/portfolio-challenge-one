@@ -228,7 +228,7 @@ body, ul, li {
     display: flex;
     justify-content: center; /* Centra los elementos en línea */
     flex-wrap: wrap; /* Permite que los iconos se ajusten si no caben en una línea */
-    gap: 15px; /* Espacio entre los iconos */
+    gap: 30px; /* Espacio entre los iconos */
     padding: 0;
     background-color: #ffffff; /* Fondo blanco */
     border: 1px solid #ddd; /* Borde gris claro */
