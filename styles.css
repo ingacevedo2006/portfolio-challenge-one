@@ -224,20 +224,21 @@ body, ul, li {
 
 
 .habilidades__lista{
-     list-style: none; /* Elimina los puntos de lista */
+    list-style: none; /* Elimina los puntos de lista */
     display: flex;
     justify-content: center; /* Centra los elementos en línea */
     flex-wrap: wrap; /* Permite que los iconos se ajusten si no caben en una línea */
     gap: 15px; /* Espacio entre los iconos */
     padding: 0;
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
 }
 
 .habilidades__elemento{
     width: 50px; /* Controla el tamaño de los iconos */
     height: 50px;
     object-fit: contain; /* Asegura que los iconos mantengan sus proporciones */
-    background-color: #ffffff; /* Fondo blanco */
-    border: 1px solid #ddd; /* Borde gris claro */
+
 }
 
 .habilidades__icono {
