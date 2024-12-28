@@ -264,10 +264,6 @@ body, ul, li {
     font-size: 14px;
     font-weight: 500; /* Negrita ligera */
     color: #555;
-    position: absolute; /* Posiciona el texto */
-    bottom: 5px; /* Espacio desde la parte inferior */
-    left: 10px; /* Espacio desde la parte izquierda */
-    margin-top: 5px; /* Espacio adicional */
 }
 
 
