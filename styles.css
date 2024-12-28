@@ -254,9 +254,13 @@ body, ul, li {
 
 /* Ícono */
 .habilidades__icono {
-    width: 24px; /* Tamaño del ícono */
-    height: 37px;
-    margin-bottom: 10px; /* Espacio entre el ícono y el texto */
+    width: 40px; /* Tamaño del ícono */
+    height: 40px;
+    position: absolute; /* Posiciona el ícono */
+    bottom: 10px; /* Espacio desde la parte inferior */
+    left: 10px; /* Espacio desde la parte izquierda */
+
+  
 }
 
 /* Nombre de la habilidad */
@@ -264,6 +268,10 @@ body, ul, li {
     font-size: 14px;
     font-weight: 500; /* Negrita ligera */
     color: #555;
+    position: absolute; /* Posiciona el texto */
+    bottom: 5px; /* Espacio desde la parte inferior */
+    left: 10px; /* Espacio desde la parte izquierda */
+    margin-top: 5px; /* Espacio adicional */
 }
 
 
