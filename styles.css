@@ -244,7 +244,8 @@ body, ul, li {
     height: 174px; /* Alto fijo del recuadro */
     text-align: left; /* Alineación del texto hacia la izquierda */
     overflow: hidden; /* Asegura que no se salga contenido extra */
-    padding: 0;
+    padding: 16px;
+    gap: 8px;
     transition: transform 0.3s ease; /* Efecto al pasar el mouse */
 }
 
