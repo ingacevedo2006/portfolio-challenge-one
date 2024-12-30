@@ -198,19 +198,7 @@ body, ul, li {
     align-items: flex-start; /* Alinea el contenedor en la parte superior del padre */
     height: 100vh; /* Ocupa toda la altura de la pantalla */
     padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
-
- 
 }
-
-.habilidades__contenedor {
-    display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
-    align-items: center; /* Centra el contenido horizontalmente */
-    gap: 20px; /* Espacio entre el título y la lista */
-    width: 90%; /* Controla el ancho del contenedor */
-    max-width: 600px; /* Limita el ancho máximo */
-    margin: 0 auto; /* Centra horizontalmente dentro del padre */
- }
 
 
 .habilidades__titulo{
@@ -220,6 +208,18 @@ body, ul, li {
     color: #464646;
     margin-bottom: 10px; /* Espacio debajo del título */
 }
+
+.habilidades__contenedor {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    gap: 20px; /* Espacio entre el título y la lista */
+    /*  width: 90%; /* Controla el ancho del contenedor */  
+    max-width: 600px; /* Limita el ancho máximo */
+    height: 174px;
+    width: 1136px;
+    margin: 0 auto; /* Centra horizontalmente dentro del padre */
+ }
 
 /* Lista de habilidades */
 .habilidades__lista {
