@@ -414,7 +414,7 @@ body, ul, li {
 
 
 .formacion__icono {
-   max-width: 20%; /* Asegura que no exceda el 30% */
+   max-width: 50%; /* Asegura que no exceda el 50% */
    height: auto; /* Mantiene las proporciones */
    align-self: flex-start; /* Posiciona el ícono en la esquina inferior izquierda */
    margin-top: auto; /* Empuja el ícono hacia abajo dentro del cuadro */
