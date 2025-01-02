@@ -190,6 +190,19 @@ body, ul, li {
  
 }
 
+/*------------------------------ Habilidades y Aficiones  ------------------------------*/
+
+                           /* Define los estilos generales de toda la sección combinada */
+.habilidades-aficiones {
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 40px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin: 20px auto; /* Centrado */
+    max-width: 1200px; /* Ancho máximo */
+}
+
+
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
 .habilidades {
