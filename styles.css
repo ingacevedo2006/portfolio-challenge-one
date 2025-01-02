@@ -376,6 +376,15 @@ body, ul, li {
    gap: 32px; /* Espaciado entre elementos */
    margin: 0 auto;
    padding: 15px 65px;  
+
+
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    gap: 32px; /* Espacio entre el título y la lista */
+    width: 100%; /* Ajusta al ancho del padre */
+    margin: 0 auto; /* Centra horizontalmente dentro del padre */
+  
 }
 
 .formacion__titulo {
@@ -397,7 +406,6 @@ body, ul, li {
     margin: 0 auto; /* Centra horizontalmente el contenedor */
     list-style: none; /* Elimina los puntos de la lista */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-
 }
 
 .formacion__icono {
@@ -408,7 +416,6 @@ body, ul, li {
 }
 
 .formacion__nombre {
-    position: absolute;
     bottom: 10px; /* Justo debajo del ícono */
     left: 10px; /* Alineado con el ícono */
     font-size: 14px;
@@ -419,7 +426,6 @@ body, ul, li {
 
 
 .formacion__detalle {
-    position: absolute;
     bottom: 10px; /* Justo debajo del ícono */
     left: 10px; /* Alineado con el ícono */
     font-size: 14px;
