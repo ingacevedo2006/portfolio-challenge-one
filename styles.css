@@ -257,8 +257,8 @@ body, ul, li {
     position: absolute;
     bottom: 40px; /* Separación desde la parte inferior */
     left: 10px; /* Separación desde la izquierda */
-    width: 40px; /* Tamaño del ícono más pequeño */
-    height: 40px;
+    width: 24px; /* Tamaño del ícono más pequeño */
+    height: 37px;
 }
 
 /* Nombre de la habilidad */
@@ -328,7 +328,7 @@ body, ul, li {
     transition: transform 0.3s ease; /* Efecto al pasar el mouse */
 }
 .aficiones__icono {
-     position: absolute;
+    position: absolute;
     bottom: 40px; /* Separación desde la parte inferior */
     left: 10px; /* Separación desde la izquierda */
     width: 40px; /* Tamaño del ícono más pequeño */
