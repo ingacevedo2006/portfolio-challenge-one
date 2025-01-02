@@ -295,7 +295,7 @@ body, ul, li {
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
 .aficiones {
-    padding-top: 20px; /* Espaciado superior adicional */
+    padding-top: 40px; /* Espaciado superior adicional */
 }
 
 .aficiones__contenedor {
@@ -362,7 +362,7 @@ body, ul, li {
 .formacion{
     display: flex;
     background-color: #EAF2FD; /* Fondo para diferenciar la sección */
-    justify-content: flex-start;
+    justify-content: center; /* Centra los elementos horizontalmente */
     align-items: center;
 }
 
