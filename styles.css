@@ -416,8 +416,7 @@ body, ul, li {
 .formacion__icono {
    align-self: flex-start; /* Posiciona el ícono en la esquina inferior izquierda */
    margin-top: auto; /* Empuja el ícono hacia abajo dentro del cuadro */
-   width: 32px; /* Ajusta el tamaño */
-   height: 37px;  
+ 
 }
 
 .formacion__nombre {
