@@ -371,26 +371,33 @@ body, ul, li {
    display: flex;
    justify-content: space-between;
    flex-direction: column; /* Apila los elementos verticalmente */
-   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
+   align-items: center; /* Centra el contenido horizontalmente */
+   gap: 32px; /* Espaciado entre el título, subtítulo y formulario */
    margin: 0 auto; /* Centra horizontalmente */ 
    padding: 15px 65px;  
 }
 
 .formacion__titulo {
+    display: flex;
     font-size: 32px; /* Tamaño grande para el título */
     font-weight: bold; /* Negrita */
-    margin-bottom: 10px; /* Espacio debajo del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
     color: #464646;
+    text-align: center; /* Centra el texto */
+/
+
+  
 }
 
 
 .formacion__lista {
-    list-style: none; /* Elimina los puntos de lista */
-    padding: 0;
-    display: flex;
-    gap: 15px; /* Espacio entre los elementos de la lista */
-   align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
- 
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    gap: 20px; /* Espaciado visible entre los elementos */
+    padding: 0; /* Elimina el padding predeterminado del ul */
+    margin: 0 auto; /* Centra horizontalmente el contenedor si es necesario */
+    list-style: none; /* Elimina los puntos de la lista */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
 }
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
