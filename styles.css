@@ -206,7 +206,7 @@ body, ul, li {
 .habilidades-aficiones__contenedor {
     display: flex;
     flex-direction: column; /* Apila las secciones verticalmente */
-    gap: 40px; /* Espaciado entre las secciones */
+    gap: 60px; /* Espaciado entre las secciones */
 }
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
