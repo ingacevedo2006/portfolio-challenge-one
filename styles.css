@@ -129,7 +129,7 @@ body, ul, li {
     padding: 0;
     display: flex;
     gap: 15px; /* Espacio entre los elementos de la lista */
-  align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+   align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
 }
 
 .redes__img a {
@@ -414,6 +414,8 @@ body, ul, li {
 
 
 .formacion__icono {
+   max-width: 20%; /* Asegura que no exceda el 30% */
+   height: auto; /* Mantiene las proporciones */
    align-self: flex-start; /* Posiciona el ícono en la esquina inferior izquierda */
    margin-top: auto; /* Empuja el ícono hacia abajo dentro del cuadro */
  
