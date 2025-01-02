@@ -202,15 +202,20 @@ body, ul, li {
     max-width: 1200px; /* Ancho máximo */
 }
 
+/* Contenedor principal para separar habilidades y aficiones verticalmente */
+.habilidades-aficiones__contenedor {
+    display: flex;
+    flex-direction: column; /* Apila las secciones verticalmente */
+    gap: 40px; /* Espaciado entre las secciones */
+}
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
 .habilidades {
-    display: flex;
-    justify-content: center; /* Centra el contenedor en el eje horizontal */
-    align-items: flex-start; /* Alinea el contenedor en la parte superior del padre */
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
-    padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
+ /*   display: flex;     justify-content: center; /* Centra el contenedor en el eje horizontal */     align-items: flex-start; /* Alinea el contenedor en la parte superior del padre */
+ /*   height: 100vh; /* Ocupa toda la altura de la pantalla */     padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
+
+  padding-top: 20px; /* Espaciado superior adicional */
 }
 
 .habilidades__contenedor {
@@ -218,9 +223,8 @@ body, ul, li {
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: center; /* Centra el contenido horizontalmente */
     gap: 32px; /* Espacio entre el título y la lista */
-    /*  width: 90%; /* Controla el ancho del contenedor */  
-    height: 2444px;
-    width: 1136px;
+    width: 100%; /* Ajusta al ancho del padre */
+  /*  height: 2444px;     width: 1136px; */
     margin: 0 auto; /* Centra horizontalmente dentro del padre */
  }
 
@@ -237,13 +241,15 @@ body, ul, li {
 /* Lista de habilidades */
 .habilidades__lista {
     display: flex; /* Habilita Flexbox */
-    justify-content: space-between; /* Distribuye los elementos uniformemente */
-    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias líneas */
+    justify-content: center; /* Centra los elementos horizontalmente */
     gap: 20px; /* Espaciado visible entre los elementos */
     padding: 0; /* Elimina el padding predeterminado del ul */
-    margin: 0 auto; /* Centra horizontalmente el contenedor si es necesario */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
     list-style: none; /* Elimina los puntos de la lista */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+
+
 }
 
 /* Cada elemento de la lista */
