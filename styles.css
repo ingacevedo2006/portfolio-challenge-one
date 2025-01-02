@@ -257,7 +257,7 @@ body, ul, li {
     position: absolute;
     bottom: 40px; /* Separación desde la parte inferior */
     left: 10px; /* Separación desde la izquierda */
-    width: 24px; /* Tamaño del ícono más pequeño */
+    width: 32px; /* Tamaño del ícono más pequeño */
     height: 37px;
 }
 
