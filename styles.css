@@ -375,6 +375,7 @@ body, ul, li {
    gap: 32px; /* Espaciado entre el título, subtítulo y formulario */
    margin: 0 auto; /* Centra horizontalmente */ 
    padding: 15px 65px;  
+   position: relative; /* Establece un contexto de posicionamiento para los hijos absolutos */
 }
 
 .formacion__titulo {
@@ -403,6 +404,16 @@ body, ul, li {
     left: 10px; /* Separación desde la izquierda */
     width: 32px; /* Tamaño del ícono más pequeño */
     height: 37px;
+
+    text-decoration: none;
+    color: #3498db; /* Color azul para los enlaces */
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacio entre texto e imagen */
+    transition: color 0.3s ease;
+
+  
 }
 
 .formacion__nombre {
