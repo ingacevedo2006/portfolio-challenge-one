@@ -414,31 +414,25 @@ body, ul, li {
 
 
 .formacion__icono {
-   max-width: 50%; /* Asegura que no exceda el 50% */
-   height: auto; /* Mantiene las proporciones */
-   align-self: flex-start; /* Posiciona el ícono en la esquina inferior izquierda */
-   margin-top: auto; /* Empuja el ícono hacia abajo dentro del cuadro */
- 
+    max-width: 60%; /* Asegura que no exceda el 60% */
+    height: auto; /* Mantiene las proporciones */
+    margin-bottom: 16px; /* Espacio entre el ícono y el contenido debajo */
+}
+
+.formacion__nombre,
+.formacion__detalle {
+    text-align: center; /* Centra el texto */
+    font-weight: 500; /* Negrita ligera */
+    color: #555;
 }
 
 .formacion__nombre {
-    bottom: 10px; /* Justo debajo del ícono */
-    left: 10px; /* Alineado con el ícono */
     font-size: 14px;
-    font-weight: 500; /* Negrita ligera */
-    color: #555;
-  
 }
-
 
 .formacion__detalle {
-    bottom: 10px; /* Justo debajo del ícono */
-    left: 10px; /* Alineado con el ícono */
-    font-size: 14px;
-    font-weight: 500; /* Negrita ligera */
-    color: #555;
+    font-size: 12px;
 }
-
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
 
