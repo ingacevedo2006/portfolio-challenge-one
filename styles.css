@@ -295,40 +295,33 @@ body, ul, li {
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
 .aficiones {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    padding-top: 20px; /* Espaciado superior adicional */
 }
 
-.aficiones__contenedor{
+.aficiones__contenedor {
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: center; /* Centra el contenido horizontalmente */
     gap: 32px; /* Espacio entre el título y la lista */
-    height: 2444px;
-    width: 1136px;
+    width: 100%; /* Ajusta al ancho del padre */
     margin: 0 auto; /* Centra horizontalmente dentro del padre */
- 
 }
 
-
 .aficiones__titulo {
-    display: flex;
     font-size: 32px; /* Tamaño grande para destacar */
     font-weight: bold; /* Negrita */
     text-align: center; /* Centra el texto */
     color: #464646;
-    margin-bottom: 10px; /* Espacio debajo del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
 }
-
 
 .aficiones__lista {
     display: flex; /* Habilita Flexbox */
-    justify-content: space-between; /* Distribuye los elementos uniformemente */
-    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias líneas */
+    justify-content: center; /* Centra los elementos horizontalmente */
     gap: 20px; /* Espaciado visible entre los elementos */
     padding: 0; /* Elimina el padding predeterminado del ul */
-    margin: 0 auto; /* Centra horizontalmente el contenedor si es necesario */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
     list-style: none; /* Elimina los puntos de la lista */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
 }
