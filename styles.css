@@ -363,19 +363,19 @@ body, ul, li {
     display: flex;
     background-color: #EAF2FD; /* Fondo para diferenciar la sección */
     justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center;
+    align-items: center;  
 }
 
 
 .formacion__contenedor{
    display: flex;
-   justify-content: space-between;
-   flex-direction: column; /* Apila los elementos verticalmente */
-   align-items: center; /* Centra el contenido horizontalmente */
-   gap: 32px; /* Espaciado entre el título, subtítulo y formulario */
-   margin: 0 auto; /* Centra horizontalmente */ 
+   flex-wrap: wrap; /* Permite ajustar los cuadros a múltiples filas */
+   justify-content: space-between; /* Distribuye los elementos uniformemente */
+   flex-direction: row; /* Alinea los cuadros horizontalmente */
+   align-items: flex-start; /* Alinea los cuadros en la parte superior del contenedor */
+   gap: 32px; /* Espaciado entre elementos */
+   margin: 0 auto;
    padding: 15px 65px;  
-   position: relative; /* Establece un contexto de posicionamiento para los hijos absolutos */
 }
 
 .formacion__titulo {
@@ -389,7 +389,7 @@ body, ul, li {
 
 
 .formacion__lista {
-     display: flex; /* Habilita Flexbox */
+    display: flex; /* Habilita Flexbox */
     flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias líneas */
     justify-content: center; /* Centra los elementos horizontalmente */
     gap: 20px; /* Espaciado visible entre los elementos */
@@ -398,27 +398,13 @@ body, ul, li {
     list-style: none; /* Elimina los puntos de la lista */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
 
-
-
-
 }
 
 .formacion__icono {
-    position: absolute;
-    bottom: 40px; /* Separación desde la parte inferior */
-    left: 10px; /* Separación desde la izquierda */
-    width: 32px; /* Tamaño del ícono más pequeño */
-    height: 37px;
-
-    text-decoration: none;
-    color: #3498db; /* Color azul para los enlaces */
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 5px; /* Espacio entre texto e imagen */
-    transition: color 0.3s ease;
-
-  
+   align-self: flex-start; /* Posiciona el ícono en la esquina inferior izquierda */
+   margin-top: auto; /* Empuja el ícono hacia abajo dentro del cuadro */
+   width: 32px; /* Ajusta el tamaño */
+   height: 37px;  
 }
 
 .formacion__nombre {
