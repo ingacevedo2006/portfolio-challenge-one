@@ -200,16 +200,12 @@ body, ul, li {
     padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
 }
 
-
-
-
 .habilidades__contenedor {
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: center; /* Centra el contenido horizontalmente */
     gap: 32px; /* Espacio entre el título y la lista */
     /*  width: 90%; /* Controla el ancho del contenedor */  
-    /*  max-width: 600px; /* Limita el ancho máximo */
     height: 2444px;
     width: 1136px;
     margin: 0 auto; /* Centra horizontalmente dentro del padre */
@@ -235,7 +231,6 @@ body, ul, li {
     margin: 0 auto; /* Centra horizontalmente el contenedor si es necesario */
     list-style: none; /* Elimina los puntos de la lista */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-
 }
 
 /* Cada elemento de la lista */
@@ -287,34 +282,67 @@ body, ul, li {
 }
 
 .aficiones__contenedor{
-   display: flex;
-   justify-content: space-between;
-   flex-direction: column; /* Apila los elementos verticalmente */
-   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
-   margin: 0 auto; /* Centra horizontalmente */ 
-   padding: 15px 65px;  
-}
-
-
-.aficiones__titulo {
-    font-size: 32px; /* Tamaño grande para el título */
-    font-weight: bold; /* Negrita */
-    margin-bottom: 10px; /* Espacio debajo del título */
-    color: #464646;
-}
-
-
-.aficiones__lista {
-    list-style: none; /* Elimina los puntos de lista */
-    padding: 0;
     display: flex;
-    gap: 15px; /* Espacio entre los elementos de la lista */
-   align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    gap: 32px; /* Espacio entre el título y la lista */
+    height: 2444px;
+    width: 1136px;
+    margin: 0 auto; /* Centra horizontalmente dentro del padre */
  
 }
 
 
+.aficiones__titulo {
+    display: flex;
+    font-size: 32px; /* Tamaño grande para destacar */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centra el texto */
+    color: #464646;
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
 
+
+.aficiones__lista {
+    display: flex; /* Habilita Flexbox */
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    gap: 20px; /* Espaciado visible entre los elementos */
+    padding: 0; /* Elimina el padding predeterminado del ul */
+    margin: 0 auto; /* Centra horizontalmente el contenedor si es necesario */
+    list-style: none; /* Elimina los puntos de la lista */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.aficiones__elemento {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    position: relative; /* Necesario para posicionar los hijos absolutos */
+    width: 176px; /* Ancho fijo del recuadro */
+    height: 174px; /* Alto fijo del recuadro */
+    text-align: left; /* Alineación del texto hacia la izquierda */
+    overflow: hidden; /* Asegura que no se salga contenido extra */
+    padding: 16px;
+    gap: 8px;
+    transition: transform 0.3s ease; /* Efecto al pasar el mouse */
+}
+.aficiones__icono {
+     position: absolute;
+    bottom: 40px; /* Separación desde la parte inferior */
+    left: 10px; /* Separación desde la izquierda */
+    width: 40px; /* Tamaño del ícono más pequeño */
+    height: 40px;
+}
+
+.aficiones__nombre {
+    position: absolute;
+    bottom: 10px; /* Justo debajo del ícono */
+    left: 10px; /* Alineado con el ícono */
+    font-size: 14px;
+    font-weight: 500; /* Negrita ligera */
+    color: #555;
+}
 
 /*------------------------------ Sección de Formación --------------------------------*/
 
