@@ -374,7 +374,6 @@ body, ul, li {
    gap: 32px; /* Espaciado entre elementos */
    margin: 0 auto;
    padding: 15px 65px;  
-
 }
 
 .formacion__titulo {
@@ -403,9 +402,10 @@ body, ul, li {
     border: 1px solid #ddd; /* Borde gris claro */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     position: relative; /* Necesario para posicionar los hijos absolutos */
-    width: 176px; /* Ancho fijo del recuadro */
-    height: 174px; /* Alto fijo del recuadro */
-    text-align: left; /* Alineación del texto hacia la izquierda */
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
     overflow: hidden; /* Asegura que no se salga contenido extra */
     padding: 16px;
     gap: 8px;
