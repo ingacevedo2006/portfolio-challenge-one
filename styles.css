@@ -308,6 +308,7 @@ body, ul, li {
 }
 
 .aficiones__titulo {
+    display: flex;
     font-size: 32px; /* Tamaño grande para destacar */
     font-weight: bold; /* Negrita */
     text-align: center; /* Centra el texto */
