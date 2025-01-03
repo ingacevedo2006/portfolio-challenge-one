@@ -377,7 +377,7 @@ body, ul, li {
    gap: 32px; /* Espaciado entre elementos */
    width: 100%; /* Ajusta al ancho del padre */
    margin: 0 auto;  /* Centra horizontalmente */
-   padding: 15px 65px;
+   padding: 15px 15px; /* 15px de espacio en la parte superior e inferior. 55px de espacio en los lados izquierdo y derecho.*/
   }
 
 
