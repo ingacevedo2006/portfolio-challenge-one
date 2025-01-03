@@ -450,7 +450,7 @@ body, ul, li {
    gap: 32px; /* Espaciado entre elementos */
    width: 100%; /* Ajusta al ancho del padre */
    margin: 0 auto;  /* Centra horizontalmente */
-   padding: 15px 15px; /* 15px de espacio en la parte superior e inferior. 15px de espacio en los lados izquierdo y derecho.*/
+   padding: 5px 15px; /* 15px de espacio en la parte superior e inferior. 15px de espacio en los lados izquierdo y derecho.*/
    border: 2px solid red; 
 }
 
