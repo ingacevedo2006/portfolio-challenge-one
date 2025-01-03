@@ -402,21 +402,23 @@ body, ul, li {
     border: 1px solid #ddd; /* Borde gris claro */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     position: relative; /* Necesario para posicionar los hijos absolutos */
-    display: flex;
-    flex-direction: column; /* Organiza el contenido en columna */
-    justify-content: center; /* Centra el contenido verticalmente */
-    align-items: center; /* Centra el contenido horizontalmente */
+    width: 176px; /* Ancho fijo del recuadro */
+    height: 174px; /* Alto fijo del recuadro */
+    text-align: center; /* Centra el texto dentro del recuadro */
     overflow: hidden; /* Asegura que no se salga contenido extra */
     padding: 16px;
     gap: 8px;
-    transition: transform 0.3s ease; /* Efecto al pasar el mouse */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra los elementos en el eje vertical */
+    align-items: center; /* Centra los elementos en el eje horizontal */
 }
 
 
 .formacion__icono {
     max-width: 60%; /* Asegura que no exceda el 60% */
     height: auto; /* Mantiene las proporciones */
-    margin-bottom: 16px; /* Espacio entre el ícono y el contenido debajo */
+    margin-bottom: 16px; /* Espacio entre el icono y el texto */
 }
 
 .formacion__nombre,
@@ -428,10 +430,16 @@ body, ul, li {
 
 .formacion__nombre {
     font-size: 14px;
+    font-weight: 500; /* Negrita ligera */
+    color: #555;
+    margin: 0;
 }
 
 .formacion__detalle {
     font-size: 12px;
+    font-weight: 500; /* Negrita ligera */
+    color: #555;
+    margin: 0;
 }
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
