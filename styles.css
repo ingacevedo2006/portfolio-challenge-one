@@ -425,11 +425,14 @@ body, ul, li {
 
 
 .formacion__icono {
-    width: 190px; /* Ancho fijo del recuadro */
-    height: 130px; /* Alto fijo del recuadro */
+  
+     max-width: 60%; /* Asegura que no exceda el 60% */
+  /* height: auto; /* Mantiene las proporciones */
+   /*    width: 190px; /* Ancho fijo del recuadro */
+  /*    height: 130px; /* Alto fijo del recuadro */
     /* max-width: 60%; /* Asegura que no exceda el 60% */
     /*  height: auto; /* Mantiene las proporciones */
-    margin-bottom: 16px; /* Espacio entre el icono y el texto */
+ /*     margin-bottom: 16px; /* Espacio entre el icono y el texto */
 }
 
 
