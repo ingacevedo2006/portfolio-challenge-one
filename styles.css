@@ -359,38 +359,33 @@ body, ul, li {
 
 /*------------------------------ Sección de Formación --------------------------------*/
 
-
 .formacion{
     display: flex;
     background-color: #EAF2FD; /* Fondo para diferenciar la sección */
     justify-content: flex-start;
     align-items: center;
+    padding: 82px;
   }
-
-
-
 
 .formacion__contenedor{
    display: flex;
    flex-direction: column; /* Apila los elementos verticalmente */
    align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+   align-items: center; /* Centra el contenido horizontalmente */
    gap: 32px; /* Espaciado entre elementos */
    width: 100%; /* Ajusta al ancho del padre */
    margin: 0 auto;  /* Centra horizontalmente */
-   padding: 15px 15px; /* 15px de espacio en la parte superior e inferior. 55px de espacio en los lados izquierdo y derecho.*/
+   padding: 15px 15px; /* 15px de espacio en la parte superior e inferior. 15px de espacio en los lados izquierdo y derecho.*/
   }
-
-
 
 .formacion__titulo {
     display: flex;
     font-size: 32px; /* Tamaño grande para el título */
     font-weight: bold; /* Negrita */
-    margin-bottom: 20px; /* Espacio debajo del título */
-    color: #464646;
     text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #464646;  
 }
-
 
 .formacion__lista {
     display: flex; /* Habilita Flexbox */
@@ -404,8 +399,9 @@ body, ul, li {
 }
 
 .formacion__elemento {
-
-  /*  position: relative; /* Necesario para posicionar los hijos absolutos */
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     width: 368px; /* Ancho fijo del recuadro */
     height: 347px; /* Alto fijo del recuadro */
     text-align: center; /* Centra el texto dentro del recuadro */
@@ -420,9 +416,6 @@ body, ul, li {
 
 
 .formacion__icono {
-    background-color: #ffffff; /* Fondo blanco */
-    border: 1px solid #ddd; /* Borde gris claro */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     width: 190px; /* Ancho fijo del recuadro */
     height: 130px; /* Alto fijo del recuadro */
     /* max-width: 60%; /* Asegura que no exceda el 60% */
