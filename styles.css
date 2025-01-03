@@ -359,6 +359,7 @@ body, ul, li {
 
 /*------------------------------ Sección de Formación --------------------------------*/
 
+
 .formacion{
     display: flex;
     background-color: #EAF2FD; /* Fondo para diferenciar la sección */
@@ -367,14 +368,19 @@ body, ul, li {
   }
 
 
+
+
 .formacion__contenedor{
    display: flex;
    flex-direction: column; /* Apila los elementos verticalmente */
    align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
    gap: 32px; /* Espaciado entre elementos */
    width: 100%; /* Ajusta al ancho del padre */
-   margin: 0 auto;
+   margin: 0 auto;  /* Centra horizontalmente */
+   padding: 15px 65px;
   }
+
+
 
 .formacion__titulo {
     display: flex;
