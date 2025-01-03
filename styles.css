@@ -399,7 +399,6 @@ body, ul, li {
 }
 
 .formacion__elemento {
-
     text-align: center; /* Centra el texto dentro del recuadro */
     overflow: hidden; /* Asegura que no se salga contenido extra */
     padding: 16px;
@@ -415,7 +414,7 @@ body, ul, li {
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     height: 100%; /* Asegura que ocupe todo el alto disponible */
-    padding: 30px; /* Relleno blanco */
+    padding: 40px; /* Relleno blanco */
     background-color: #ffffff; /* Fondo blanco */
     border: 1px solid #ddd; /* Añade un borde visible */
     /* border: 2px solid red; */
@@ -423,14 +422,7 @@ body, ul, li {
 
 
 .formacion__icono {
-  
-     max-width: 60%; /* Asegura que no exceda el 60% */
-  /* height: auto; /* Mantiene las proporciones */
-   /*    width: 190px; /* Ancho fijo del recuadro */
-  /*    height: 130px; /* Alto fijo del recuadro */
-    /* max-width: 60%; /* Asegura que no exceda el 60% */
-    /*  height: auto; /* Mantiene las proporciones */
- /*     margin-bottom: 16px; /* Espacio entre el icono y el texto */
+       max-width: 60%; /* Asegura que no exceda el 60% */
 }
 
 
@@ -438,14 +430,16 @@ body, ul, li {
     font-size: 14px;
     font-weight: 500; /* Negrita ligera */
     color: #555;
-    margin: 0;
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 0; /* Asegura que no haya márgenes adicionales */
 }
 
 .formacion__detalle {
     font-size: 12px;
     font-weight: 500; /* Negrita ligera */
     color: #555;
-    margin: 0;
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 0; /* Asegura que no haya márgenes adicionales */
 }
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
