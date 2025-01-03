@@ -415,10 +415,10 @@ body, ul, li {
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     height: 100%; /* Asegura que ocupe todo el alto disponible */
-    padding: 10px; /* Relleno blanco */
+    padding: 30px; /* Relleno blanco */
     background-color: #ffffff; /* Fondo blanco */
     border: 1px solid #ddd; /* Añade un borde visible */
-    border: 2px solid red;
+    /* border: 2px solid red; */
    }
 
 
