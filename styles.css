@@ -421,12 +421,6 @@ body, ul, li {
     margin-bottom: 16px; /* Espacio entre el icono y el texto */
 }
 
-.formacion__nombre,
-.formacion__detalle {
-    text-align: center; /* Centra el texto */
-    font-weight: 500; /* Negrita ligera */
-    color: #555;
-}
 
 .formacion__nombre {
     font-size: 14px;
