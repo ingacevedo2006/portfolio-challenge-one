@@ -404,9 +404,7 @@ body, ul, li {
 }
 
 .formacion__elemento {
-    background-color: #ffffff; /* Fondo blanco */
-    border: 1px solid #ddd; /* Borde gris claro */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+
   /*  position: relative; /* Necesario para posicionar los hijos absolutos */
     width: 368px; /* Ancho fijo del recuadro */
     height: 347px; /* Alto fijo del recuadro */
@@ -422,6 +420,9 @@ body, ul, li {
 
 
 .formacion__icono {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     width: 190px; /* Ancho fijo del recuadro */
     height: 130px; /* Alto fijo del recuadro */
     /* max-width: 60%; /* Asegura que no exceda el 60% */
