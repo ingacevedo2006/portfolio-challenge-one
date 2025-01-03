@@ -411,17 +411,17 @@ body, ul, li {
 }
 
 .formacion__icono-container {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     width: 368px; /* Ancho fijo del recuadro */
     height: 286px; /* Alto fijo del recuadro */
     padding: 16px;
-    background-color: #ffffff; /* Fondo blanco */
-    border: 1px solid #ddd; /* Borde gris claro */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    position: relative; /* Necesario para posicionar los hijos absolutos */
-}
+
+   }
 
 
 .formacion__icono {
