@@ -448,6 +448,15 @@ body, ul, li {
  display: flex;
 }
 
+.proyectos__titulo {
+     display: flex;
+    font-size: 32px; /* Tamaño grande para el título */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #464646;  
+}
+
 .proyectos__contenedor{
    display: flex;
    justify-content: space-between;
@@ -455,6 +464,22 @@ body, ul, li {
    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
    margin: 0 auto; /* Centra horizontalmente */ 
    padding: 15px 65px;  
+}
+
+.proyectos__nombre {
+    font-size: 14px;
+    font-weight: 500; /* Negrita ligera */
+    color: #555;
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 0; /* Asegura que no haya márgenes adicionales */
+}
+
+.proyectos__descripcion {
+    font-size: 12px;
+    font-weight: 500; /* Negrita ligera */
+    color: #555;
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 0; /* Asegura que no haya márgenes adicionales *
 }
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
