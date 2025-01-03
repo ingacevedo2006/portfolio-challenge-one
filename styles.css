@@ -68,7 +68,6 @@ body, ul, li {
 }
 
  
-
 .navegacion__elemento a {
     font-size: 0.9rem;
     color: #007bff; /* Color del enlace */
@@ -417,8 +416,7 @@ body, ul, li {
     padding: 40px; /* Relleno blanco */
     background-color: #ffffff; /* Fondo blanco */
     border: 1px solid #ddd; /* Añade un borde visible */
-    /* border: 2px solid red; */
-   }
+      }
 
 
 .formacion__icono {
@@ -453,6 +451,7 @@ body, ul, li {
    width: 100%; /* Ajusta al ancho del padre */
    margin: 0 auto;  /* Centra horizontalmente */
    padding: 15px 15px; /* 15px de espacio en la parte superior e inferior. 15px de espacio en los lados izquierdo y derecho.*/
+   border: 2px solid red; 
 }
 
 .proyectos__titulo {
