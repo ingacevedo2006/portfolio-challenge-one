@@ -207,7 +207,7 @@ body, ul, li {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
     margin: 20px auto; /* Centrado */
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    width: 100%; /* Ajusta al ancho completo */
+    max-width: 100%; /* Ajusta al ancho completo */
 }
 
 /* Contenedor principal para separar habilidades y aficiones verticalmente */
@@ -347,7 +347,7 @@ body, ul, li {
     padding: 0; /* Elimina el padding predeterminado del ul */
     margin: 0 auto; /* Centra horizontalmente el contenedor */
     list-style: none; /* Elimina los puntos de la lista */
-    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    max-width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
 }
 
 .aficiones__elemento {
@@ -402,7 +402,7 @@ body, ul, li {
     align-items: center;
     padding: 20px;
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    width: 100%; /* Ajusta al ancho completo */
+    max-width: 100%; /* Ajusta al ancho completo */
     box-sizing: border-box; /* Incluye padding y border dentro del cálculo del ancho */
   }
 
@@ -489,7 +489,7 @@ body, ul, li {
    align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
    align-items: center; /* Centra el contenido horizontalmente */
    gap: 32px; /* Espaciado entre elementos */
-   width: 100%; /* Ajusta al ancho del padre */
+   max-width: 100%; /* Ajusta al ancho del padre */
    margin: 0 auto;  /* Centra horizontalmente */
    padding: 5px 15px; /* 15px de espacio en la parte superior e inferior. 15px de espacio en los lados izquierdo y derecho.*/
    border: 2px solid red; 
