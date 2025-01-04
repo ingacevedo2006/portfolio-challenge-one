@@ -314,20 +314,22 @@ body, ul, li {
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
 .aficiones {
-    padding-top: 40px; /* Espaciado superior adicional */
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    width: 100%; /* Ajusta al ancho completo */
+    max-width: 100%; /* Ajusta al ancho del padre */
+    padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
 }
 
 .aficiones__contenedor {
-    display: flex; /* Usar flexbox para alinear los elementos */
-    justify-content: space-between;  /* Distribuir el espacio entre los elementos */
-    flex-wrap: wrap;  /* Permite que los elementos se ajusten en varias filas si es necesario */
-   /* flex-direction: column; /* Apila los elementos verticalmente */
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
     align-items: center; /* Centra el contenido horizontalmente */
-    gap: 32px; /* Espacio entre el título y la lista */
-    width: 100%; /* Ajusta al ancho del padre */
+    gap:20px; /* Espacio entre el título y la lista */
+    max-width: 100%; /* Ajusta al ancho del padre */
     margin: 0 auto; /* Centra horizontalmente dentro del padre */
+    padding: 15px;
+
+
+  
 }
 
 .aficiones__titulo {
