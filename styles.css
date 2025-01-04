@@ -172,7 +172,7 @@ body, ul, li {
     gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
     align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
     margin: 0 auto; /* Centra horizontalmente */
-    padding: 15px 65px;
+    /* padding: 15px 65px; */
     
 }
 
