@@ -216,10 +216,12 @@ body, ul, li {
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
 .habilidades {
- /*   display: flex;     justify-content: center; /* Centra el contenedor en el eje horizontal */     align-items: flex-start; /* Alinea el contenedor en la parte superior del padre */
- /*   height: 100vh; /* Ocupa toda la altura de la pantalla */     padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
+ /*   display: flex;     justify-content: center; /* Centra el contenedor en el eje horizontal */    
+ /* align-items: flex-start; /* Alinea el contenedor en la parte superior del padre */
+ /*   height: 100vh; /* Ocupa toda la altura de la pantalla */   
+  width: 100%; /* Ajusta al ancho del padre */
+  padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
 
-  padding-top: 20px; /* Espaciado superior adicional */
 }
 
 .habilidades__contenedor {
@@ -228,7 +230,6 @@ body, ul, li {
     align-items: center; /* Centra el contenido horizontalmente */
     gap: 32px; /* Espacio entre el título y la lista */
     width: 100%; /* Ajusta al ancho del padre */
-  /*  height: 2444px;     width: 1136px; */
     margin: 0 auto; /* Centra horizontalmente dentro del padre */
  }
 
