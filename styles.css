@@ -90,10 +90,9 @@ body, ul, li {
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
-   /* max-width: 1136px; /* Limita el ancho */
     padding-top: 20px; /* Espaciado superior para toda la sección */
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    width: 100%; /* Ajusta al ancho completo */
+    max-width: 100%; /* Ajusta al ancho completo */
  }
 
 .presentacion__contenedor{
@@ -108,7 +107,7 @@ body, ul, li {
 .presentacion__foto{
     flex: 1 1 20%; /* Permite que ocupe un 40% flexible */
     /*     max-width: 30%; /* Asegura que no exceda el 40% */
-     height: auto; /* Mantiene las proporciones */
+    height: auto; /* Mantiene las proporciones */
     margin-top: 10px; /* Espaciado adicional para la imagen */
  }
 
@@ -203,13 +202,12 @@ body, ul, li {
                            /* Define los estilos generales de toda la sección combinada */
 .habilidades-aficiones {
     background-color: #f9f9f9; /* Fondo claro */
-    padding: 40px 20px; /* Espaciado interno */
+    padding: 15px 65px; /* Márgenes internos */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
     margin: 20px auto; /* Centrado */
-   /* max-width: 1200px; /* Ancho máximo */
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    width: 100%; /* Ajusta al ancho completo */
+    max-width: 100%; /* Ajusta al ancho completo */
 }
 
 /* Contenedor principal para separar habilidades y aficiones verticalmente */
@@ -225,7 +223,7 @@ body, ul, li {
  /*   display: flex;     justify-content: center; /* Centra el contenedor en el eje horizontal */    
  /* align-items: flex-start; /* Alinea el contenedor en la parte superior del padre */
  /*   height: 100vh; /* Ocupa toda la altura de la pantalla */   
-  width: 100%; /* Ajusta al ancho del padre */
+  max-width: 100%; /* Ajusta al ancho del padre */
   padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
 
 }
@@ -235,7 +233,7 @@ body, ul, li {
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: center; /* Centra el contenido horizontalmente */
     gap: 32px; /* Espacio entre el título y la lista */
-    width: 100%; /* Ajusta al ancho del padre */
+    max-width: 100%; /* Ajusta al ancho del padre */
     margin: 0 auto; /* Centra horizontalmente dentro del padre */
  }
 
@@ -308,7 +306,7 @@ body, ul, li {
 .aficiones {
     padding-top: 40px; /* Espaciado superior adicional */
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    width: 100%; /* Ajusta al ancho completo */
+    max-width: 100%; /* Ajusta al ancho completo */
 }
 
 .aficiones__contenedor {
