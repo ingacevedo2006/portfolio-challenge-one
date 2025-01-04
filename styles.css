@@ -314,7 +314,7 @@ body, ul, li {
 .aficiones {
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
     max-width: 100%; /* Ajusta al ancho del padre */
-    padding-top: 20px; /* Espacio adicional desde la parte superior de la pantalla */
+    padding-top: 5px; /* Espacio adicional desde la parte superior de la pantalla */
 }
 
 .aficiones__contenedor {
@@ -324,7 +324,7 @@ body, ul, li {
     gap:20px; /* Espacio entre el título y la lista */
     max-width: 100%; /* Ajusta al ancho del padre */
     margin: 0 auto; /* Centra horizontalmente dentro del padre */
-    padding: 15px;
+    padding: 10px;
 
 
   
