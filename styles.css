@@ -400,7 +400,7 @@ body, ul, li {
     background-color: #EAF2FD; /* Fondo para diferenciar la sección */
     justify-content: flex-start;
     align-items: center;
-    padding: 82px;
+    padding: 20px;
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
     max-width: 100%; /* Ajusta al ancho completo */
   }
@@ -410,7 +410,7 @@ body, ul, li {
    flex-direction: column; /* Apila los elementos verticalmente */
    align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
    align-items: center; /* Centra el contenido horizontalmente */
-   gap: 32px; /* Espaciado entre elementos */
+   gap: 12px; /* Espaciado entre elementos */
    max-width: 100%; /* Ajusta al ancho del padre */
    margin: 0 auto;  /* Centra horizontalmente */
 /*   padding: 15px 15px; /* 15px de espacio en la parte superior e inferior. 15px de espacio en los lados izquierdo y derecho.*/
@@ -429,7 +429,7 @@ body, ul, li {
     display: flex; /* Habilita Flexbox */
     flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias líneas */
     justify-content: center; /* Centra los elementos horizontalmente */
-    gap: 20px; /* Espaciado visible entre los elementos */
+    gap: 15px; /* Espaciado visible entre los elementos */
     padding: 0; /* Elimina el padding predeterminado del ul */
     margin: 0 auto; /* Centra horizontalmente el contenedor */
     list-style: none; /* Elimina los puntos de la lista */
