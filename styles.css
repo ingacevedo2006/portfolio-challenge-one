@@ -512,7 +512,7 @@ body, ul, li {
 }
 
 .proyectos__img {
-    width: 120px; /* Reduce el tamaño de la imagen */
+    width: 150px; /* Reduce el tamaño de la imagen */
     height: auto;
     border-radius: 8px; /* Opcional: bordes redondeados */
  }
