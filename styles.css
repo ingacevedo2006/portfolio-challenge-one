@@ -52,7 +52,6 @@ body, ul, li {
 
 
 .cabecera__logo {
-    /*width: 50px; /* Ajusta el tamaño del logo */
     max-width: 80px;
     height: auto; /* Mantén las proporciones */
 }
@@ -585,72 +584,66 @@ body, ul, li {
 /* ------------------------------ Responsividad ---------------------------------------*/
 
 
-/* Tablets y pantallas más grandes */
-@media (min-width: 768px) {
+
+/* Estilos generales para móviles */
+@media (max-width: 768px) {
     .cabecera {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        padding: 15px 20px; /* Menos espacio */
+        flex-direction: column; /* Los elementos se apilan */
+        align-items: center; /* Centrado de los elementos */
     }
 
-    .cabecera__logo {
-        max-width: 100px;
-    }
-
-    .cabecera__titulo {
-        font-size: 1.5rem;
+    .cabecera__logo-titulo {
+        gap: 5px; /* Menos espacio entre logo y título */
     }
 
     .navegacion__lista {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        margin-top: 0;
+        flex-direction: column; /* Los enlaces se apilan verticalmente */
+        gap: 10px;
     }
 
-    .navegacion__elemento a {
-        font-size: 1rem;
-    }
-<!--  
- .presentacion {
-        flex-direction: column; /* Cambia la dirección a vertical */
-        text-align: center;
+    .presentacion {
+        flex-direction: column-reverse; /* Los elementos se apilan de forma inversa */
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .presentacion__foto {
-        max-width: 50%; /* Ajusta el tamaño de la imagen */
-     /*   margin: 0 auto; /* Centra la imagen */ */
+        max-width: 100%; /* La imagen ocupa todo el ancho disponible */
+        margin-top: 10px;
     }
 
-    .redes {
-        justify-content: center; /* Centra los enlaces */
-    }
--->
-    
-}  
-
-/* Pantallas grandes */
-@media (min-width:1440px)) {
- 
-  .html {
-    font-size: 18px; /* Aumenta la base de fuente a 18px */
-  }
-
- 
-   .cabecera {
-    max-width: 1400px; /* Aumenta el ancho máximo del contenedor */
-    padding: 40px; /* Más espaciado interno */
-    font-size: 2rem; /* 2 × 18px = 36px */
-    background-color: #ffffff; /* Fondo más limpio */
-   }
- 
- 
-    .cabecera__titulo {
-        font-size: 1.1rem;
+    .habilidades__elemento {
+        width: 100%; /* Los elementos ocupan el 100% del contenedor en pantallas pequeñas */
+        height: auto;
     }
 
-    .navegacion__elemento a {
-        font-size: 1.1rem;
+    .habilidades__lista, .aficiones__lista {
+        flex-direction: column; /* Los elementos se apilan verticalmente */
+        gap: 15px;
+    }
+}
+
+/* Estilos para tabletas (entre 768px y 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .cabecera {
+        padding: 20px 40px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navegacion__lista {
+        gap: 15px;
+    }
+
+    .presentacion {
+        flex-direction: column-reverse; /* Cambio de dirección */
+    }
+
+    .habilidades__elemento {
+        width: 48%; /* Dos elementos por fila */
+        height: auto;
     }
 }
 
