@@ -57,14 +57,11 @@ body, ul, li {
     height: auto; /* Mantén las proporciones */
 }
 
-
 .cabecera__titulo {
     font-size: 12px; /* Tamaño del título */
     color: #333; /* Color del texto */
     margin: 0; /* Eliminar márgenes extra */
 }
-
-
 
 .navegacion__lista {
     display: flex; /* Activa Flexbox */
@@ -74,7 +71,6 @@ body, ul, li {
     padding: 0; /* Elimina relleno */
 }
 
-
 .navegacion__elemento a {
     font-size: 0.9rem; /* Tamaño del texto */
     color: #007bff; /* Color de los enlaces */
@@ -82,7 +78,6 @@ body, ul, li {
     padding: 5px 10px; /* Espaciado interno en los enlaces */
     transition: color 0.3s ease; /* Transición de color suave */
 }
-
 
 .navegacion__elemento a:hover {
     color: #0056b3; /* Color más oscuro al pasar el mouse */
@@ -96,41 +91,40 @@ body, ul, li {
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
-  ----  max-width: 1136px; /* Limita el ancho */
+     max-width: 1136px; /* Limita el ancho */
  }
 
 .presentacion__contenedor{
-  display: flex;
-  justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
    flex-direction: column; /* Apila los elementos verticalmente */
    gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
    margin: 0 auto; /* Centra horizontalmente */ 
-   padding: 15px 65px;  
-   
+   padding: 15px 65px;   
 }
 
 .presentacion__foto{
-      flex: 1 1 20%; /* Permite que ocupe un 30% flexible */
-      max-width: 40%; /* Asegura que no exceda el 30% */
+      flex: 1 1 40%; /* Permite que ocupe un 40% flexible */
+     /* max-width: 40%; /* Asegura que no exceda el 40% */
       height: auto; /* Mantiene las proporciones */
  }
 
 
 
 .presentacion__titulo{
-    font-size: 52px; /* Tamaño grande para el título */
+    font-size: 32px; /* Tamaño grande para el título */
     font-weight: bold; /* Negrita */
     margin-bottom: 10px; /* Espacio debajo del título */
     color: #464646;
-   padding: 20px;
+   /* padding: 20px; */
 }
 
 .presentacion__subtitulo{
-    font-size: 22px; /* Tamaño más pequeño que el título */
+    font-size: 20px; /* Tamaño más pequeño que el título */
     font-weight: normal; /* Texto normal */
     margin-bottom: 20px;
     color: #464646;
-  padding: 20px;
+  /*  padding: 20px;  */
 }
 
 .redes {  /* Lista de redes sociales */
@@ -138,7 +132,7 @@ body, ul, li {
     padding: 0;
     display: flex;
     gap: 15px; /* Espacio entre los elementos de la lista */
-   align-items: stretch; /* Asegura que los elementos ocupen todo el ancho del contenedor */
+    align-items: center;  /* Alinea ítems al centro */
 }
 
 .redes__img a {
