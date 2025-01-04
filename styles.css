@@ -90,8 +90,10 @@ body, ul, li {
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse; /* Cambia el orden de los elementos a derecha-izquierda */
-    max-width: 1136px; /* Limita el ancho */
+   /* max-width: 1136px; /* Limita el ancho */
     padding-top: 20px; /* Espaciado superior para toda la sección */
+    border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
+    width: 100%; /* Ajusta al ancho completo */
  }
 
 .presentacion__contenedor{
@@ -160,6 +162,8 @@ body, ul, li {
     background-color: #EAF2FD; /* Fondo para diferenciar la sección */
     justify-content: flex-start;
     align-items: center;
+    border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
+    width: 100%; /* Ajusta al ancho completo */
 }
 
 .sobre-mi__contenido{
@@ -203,7 +207,9 @@ body, ul, li {
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
     margin: 20px auto; /* Centrado */
-    max-width: 1200px; /* Ancho máximo */
+   /* max-width: 1200px; /* Ancho máximo */
+    border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
+    width: 100%; /* Ajusta al ancho completo */
 }
 
 /* Contenedor principal para separar habilidades y aficiones verticalmente */
@@ -301,6 +307,8 @@ body, ul, li {
 
 .aficiones {
     padding-top: 40px; /* Espaciado superior adicional */
+    border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
+    width: 100%; /* Ajusta al ancho completo */
 }
 
 .aficiones__contenedor {
@@ -370,6 +378,8 @@ body, ul, li {
     justify-content: flex-start;
     align-items: center;
     padding: 82px;
+    border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
+    width: 100%; /* Ajusta al ancho completo */
   }
 
 .formacion__contenedor{
