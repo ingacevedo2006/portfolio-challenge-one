@@ -267,8 +267,10 @@ body, ul, li {
     border: 1px solid #ddd; /* Borde gris claro */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     position: relative; /* Necesario para posicionar los hijos absolutos */
-    width: 176px; /* Ancho fijo del recuadro */
-    height: 174px; /* Alto fijo del recuadro */
+    max-width: 100%; /* Para que el contenedor se ajuste al tamaño disponible */
+    /*width: 176px; /* Ancho fijo del recuadro */
+   /* height: 174px; /* Alto fijo del recuadro */
+    height: auto; /* Mantener la proporción de la imagen */
     text-align: left; /* Alineación del texto hacia la izquierda */
     overflow: hidden; /* Asegura que no se salga contenido extra */
     padding: 16px;
@@ -299,6 +301,11 @@ body, ul, li {
     color: #555;
 }
 
+.habilidades__elemento img {
+    max-width: 12%;  /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    display: block; /* Asegurar que no haya espacio extra debajo de la imagen */
+}
 
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
@@ -343,7 +350,7 @@ body, ul, li {
     border: 1px solid #ddd; /* Borde gris claro */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     position: relative; /* Necesario para posicionar los hijos absolutos */
-    width: 100%; /* Para que el contenedor se ajuste al tamaño disponible */
+    max-width: 100%; /* Para que el contenedor se ajuste al tamaño disponible */
     width: 176px; /* Ancho fijo del recuadro */
     height: 174px; /* Alto fijo del recuadro */
     text-align: left; /* Alineación del texto hacia la izquierda */
@@ -376,7 +383,7 @@ body, ul, li {
 }
 
 .aficiones__elemento img {
-    max-width: 10%;  /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    max-width: 12%;  /* Hacer que la imagen ocupe todo el ancho del contenedor */
     height: auto; /* Mantener la proporción de la imagen */
     display: block; /* Asegurar que no haya espacio extra debajo de la imagen */
 }
