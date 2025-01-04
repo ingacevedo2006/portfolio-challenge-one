@@ -512,8 +512,8 @@ body, ul, li {
 }
 
 .proyectos__img {
-    flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
-    max-width: 30%; /* Asegura que no exceda el 30% */
+    flex: 1 1 40%; /* Permite que ocupe un 40% flexible */
+    max-width: 40%; /* Asegura que no exceda el 40% */
     height: auto; /* Mantiene las proporciones */
     margin: 0 auto; /* Centra horizontalmente */
  }
