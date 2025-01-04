@@ -514,6 +514,14 @@ body, ul, li {
    padding: 15px 65px;   
 }
 
+.proyectos__img {
+    flex: 1 1 20%; /* Permite que ocupe un 40% flexible */
+    height: auto; /* Mantiene las proporciones */
+    margin-top: 10px; /* Espaciado adicional para la imagen */
+ }
+
+
+
 .proyectos__nombre {
     font-size: 14px;
     font-weight: 500; /* Negrita ligera */
