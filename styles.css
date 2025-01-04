@@ -351,10 +351,8 @@ body, ul, li {
     border: 1px solid #ddd; /* Borde gris claro */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     position: relative; /* Necesario para posicionar los hijos absolutos */
- /*   max-width: 100%; /* Para que el contenedor se ajuste al tamaño disponible */
-    width: calc(16.66% - 16px); /* Cada elemento ocupará el 25% del ancho del contenedor con un pequeño margen */
-    /*  width: 176px; /* Ancho fijo del recuadro */
-    height: 174px; /* Alto fijo del recuadro */
+    width: calc(16.66% - 16px); /* Cada elemento ocupa el 16.66% */
+    aspect-ratio: 4 / 3; /* La relación entre el ancho y el alto será 4:3 */
     text-align: left; /* Alineación del texto hacia la izquierda */
     overflow: hidden; /* Asegura que no se salga contenido extra */
     padding: 16px;
