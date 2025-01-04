@@ -512,9 +512,10 @@ body, ul, li {
 }
 
 .proyectos__img {
-    width: 150px; /* Reduce el tamaño de la imagen */
-    height: auto;
-    border-radius: 8px; /* Opcional: bordes redondeados */
+    flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
+    max-width: 30%; /* Asegura que no exceda el 30% */
+    height: auto; /* Mantiene las proporciones */
+    margin: 0 auto; /* Centra horizontalmente */
  }
 
 /* Contenedor para textos y botones */
@@ -577,7 +578,7 @@ body, ul, li {
     flex: 1 1 30%; /* Permite que ocupe un 30% flexible */
     max-width: 30%; /* Asegura que no exceda el 30% */
     height: auto; /* Mantiene las proporciones */
-  /*  align-self: flex-start; /* Alinea el botón a la izquierda */  */
+  /*  align-self: flex-start; /* Alinea el botón a la izquierda */  
     margin: 0 auto; /* Centra horizontalmente */
     }
 
