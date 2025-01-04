@@ -162,7 +162,7 @@ body, ul, li {
     justify-content: flex-start;
     align-items: center;
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    width: 100%; /* Ajusta al ancho completo */
+    max-width: 100%; /* Ajusta al ancho completo */
 }
 
 .sobre-mi__contenido{
