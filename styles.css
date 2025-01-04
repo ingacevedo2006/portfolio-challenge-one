@@ -201,7 +201,6 @@ body, ul, li {
                            /* Define los estilos generales de toda la sección combinada */
 .habilidades-aficiones {
     background-color: #f9f9f9; /* Fondo claro */
-    padding: 15px 65px; /* Márgenes internos */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
     margin: 20px auto; /* Centrado */
