@@ -257,8 +257,6 @@ body, ul, li {
     margin: 0 auto; /* Centra horizontalmente el contenedor */
     list-style: none; /* Elimina los puntos de la lista */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-
-
 }
 
 /* Cada elemento de la lista */
@@ -349,7 +347,7 @@ body, ul, li {
     padding: 0; /* Elimina el padding predeterminado del ul */
     margin: 0 auto; /* Centra horizontalmente el contenedor */
     list-style: none; /* Elimina los puntos de la lista */
-    max-width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
 }
 
 .aficiones__elemento {
