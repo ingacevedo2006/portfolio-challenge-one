@@ -499,7 +499,7 @@ body, ul, li {
 
 .proyectos__contenedor{
     display: flex;
-    align-items: center; /* Centra verticalmente la imagen y los textos */
+    align-items: flex-start; /* Alinea los elementos superiores entre sí */
     justify-content: flex-start; /* Alinea todo hacia la izquierda */
     gap: 2rem; /* Espacio entre la imagen y los textos */
     max-width: 900px;
@@ -517,6 +517,13 @@ body, ul, li {
     margin-top: 10px; /* Espaciado adicional para la imagen */
  }
 
+/* Contenedor para textos y botones */
+.proyectos__contenido {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: flex-start;
+    gap: 0.5rem; /* Espacio entre cada texto o botón */
+}
 
 
 .proyectos__nombre {
@@ -536,7 +543,7 @@ body, ul, li {
 
 /* Estilo para el botón */
 .proyectos__boton {
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
@@ -545,7 +552,7 @@ body, ul, li {
     border-radius: 4px;
     cursor: pointer;
     text-align: left;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; 
 }
 
 .proyectos__boton:hover {
