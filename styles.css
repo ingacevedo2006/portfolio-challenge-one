@@ -206,7 +206,7 @@ body, ul, li {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
     margin: 20px auto; /* Centrado */
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    max-width: 100%; /* Ajusta al ancho completo */
+    width: 100%; /* Ajusta al ancho completo */
 }
 
 /* Contenedor principal para separar habilidades y aficiones verticalmente */
@@ -403,8 +403,8 @@ body, ul, li {
     align-items: center;
     padding: 20px;
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    max-width: 100%; /* Ajusta al ancho completo */
-    box-sizing: border-box; /* Incluye padding y border dentro del cálculo del ancho */
+    width: 100%; /* Ajusta al ancho completo */
+    box-sizing: border-box; /* Incluye padding y border dentro del cálculo del ancho */ 
   }
 
 .formacion__contenedor{
