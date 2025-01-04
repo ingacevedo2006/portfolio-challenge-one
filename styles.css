@@ -528,7 +528,7 @@ body, ul, li {
 
 
 .proyectos__nombre {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #555;
     text-align: left; /* Alinea el texto a la izquierda */
@@ -536,7 +536,7 @@ body, ul, li {
 }
 
 .proyectos__descripcion {
-    font-size: 1rem;
+    font-size: 0.5rem;
     color: #555;
     margin-bottom: 1rem;
     text-align: left;
