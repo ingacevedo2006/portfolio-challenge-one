@@ -485,33 +485,30 @@ body, ul, li {
 /*------------------------------ Sección de Proyectos --------------------------------*/
 
 .proyectos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row; /*  Alinea los cuadros en una fila (puedes cambiar a column si los prefieres verticalmente)  */
-    padding-top: 20px; /* Espaciado superior para toda la sección */
-    border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    max-width: 100%; /* Ajusta al ancho completo */
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
 }
 
 .proyectos__titulo {
-    display: flex;
-    font-size: 32px; /* Tamaño grande para el título */
+    font-size: 2rem; /* Tamaño grande para el título */
     font-weight: bold; /* Negrita */
-    text-align: center; /* Centra el texto */
-    margin-bottom: 20px; /* Espacio debajo del título */
-    color: #464646;  
+    margin-bottom: 1.5rem; /* Espacio debajo del título */
+    color: #464646; 
 }
 
 .proyectos__contenedor{
-   display: flex;
-   justify-content: space-between;
-   flex-direction: column; /* Apila los elementos verticalmente */
-   align-items: flex-start; /* Asegura que los elementos ocupen todo el ancho del contenedor */
-   align-items: center; /* Centra el contenido horizontalmente */
-   gap: 8px; /* Espaciado entre el título, subtítulo y formulario */
-   margin: 0 auto; /* Centra horizontalmente */ 
-   padding: 15px 65px;   
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen y los textos */
+    justify-content: flex-start; /* Alinea todo hacia la izquierda */
+    gap: 2rem; /* Espacio entre la imagen y los textos */
+    max-width: 900px;
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .proyectos__img {
@@ -523,19 +520,36 @@ body, ul, li {
 
 
 .proyectos__nombre {
-    font-size: 14px;
-    font-weight: 500; /* Negrita ligera */
+    font-size: 1.5rem;
+    font-weight: bold;
     color: #555;
     text-align: left; /* Alinea el texto a la izquierda */
     margin: 0; /* Asegura que no haya márgenes adicionales */
 }
 
 .proyectos__descripcion {
-    font-size: 12px;
-    font-weight: 500; /* Negrita ligera */
+    font-size: 1rem;
     color: #555;
-    text-align: left; /* Alinea el texto a la izquierda */
-    margin: 0; /* Asegura que no haya márgenes adicionales *
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/* Estilo para el botón */
+.proyectos__boton {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.proyectos__boton:hover {
+    background-color: #0056b3;
 }
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
