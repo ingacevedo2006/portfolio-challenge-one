@@ -60,11 +60,11 @@ body, ul, li {
 }
 
 .navegacion__lista {
-     flex-direction: column;
-     justify-content: flex-start;
-     gap: 33px;
-     font-size: 14px;
-   /*   padding: 10px 20px 30px 40px; /* top, right, bottom, left */  */
+    display: flex; /* Activar Flexbox */
+    flex-direction: row; /* Organizar en una línea horizontal */
+    justify-content: flex-end; /* Alinear la navegación al extremo derecho */
+    align-items: center; /* Centrar verticalmente con respecto a la cabecera */
+    gap: 20px; /* Espaciado entre elementos (puedes ajustar según prefieras) */
 }
 
  
