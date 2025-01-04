@@ -268,9 +268,8 @@ body, ul, li {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     position: relative; /* Necesario para posicionar los hijos absolutos */
     max-width: 100%; /* Para que el contenedor se ajuste al tamaño disponible */
-    /*width: 176px; /* Ancho fijo del recuadro */
-   /* height: 174px; /* Alto fijo del recuadro */
-    height: auto; /* Mantener la proporción de la imagen */
+    width: 176px; /* Ancho fijo del recuadro */
+    height: 174px; /* Alto fijo del recuadro */
     text-align: left; /* Alineación del texto hacia la izquierda */
     overflow: hidden; /* Asegura que no se salga contenido extra */
     padding: 16px;
