@@ -252,7 +252,7 @@ body, ul, li {
     display: flex; /* Habilita Flexbox */
     flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias líneas */
     justify-content: center; /* Centra los elementos horizontalmente */
-    gap: 20px; /* Espaciado visible entre los elementos */
+    gap: 8px; /* Espaciado visible entre los elementos */
     padding: 0; /* Elimina el padding predeterminado del ul */
     margin: 0 auto; /* Centra horizontalmente el contenedor */
     list-style: none; /* Elimina los puntos de la lista */
