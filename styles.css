@@ -467,6 +467,7 @@ body, ul, li {
     font-size: 14px;
     font-weight: 500; /* Negrita ligera */
     color: #555;
+    font-weight: bold; /* Negrita */
     text-align: left; /* Alinea el texto a la izquierda */
     margin: 0; /* Asegura que no haya márgenes adicionales */
 }
