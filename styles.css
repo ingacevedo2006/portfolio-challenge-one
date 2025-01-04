@@ -544,8 +544,8 @@ body, ul, li {
 
 /* Estilo para el botón */
 .proyectos__boton {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
+    padding: 0.3rem 0.6rem; /* Reduce el relleno interno (padding) */
+    font-size: 0.9rem; /* Reduce el tamaño del texto */
     font-weight: bold;
     color: #fff;
     background-color: #007bff;
@@ -553,7 +553,8 @@ body, ul, li {
     border-radius: 4px;
     cursor: pointer;
     text-align: left;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
+    
 }
 
 .proyectos__boton:hover {
