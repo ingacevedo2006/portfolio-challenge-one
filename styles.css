@@ -214,6 +214,7 @@ body, ul, li {
     display: flex;
     flex-direction: column; /* Apila las secciones verticalmente */
     gap: 120px; /* Espaciado entre las secciones */
+    width: 100%; /* Ajusta al ancho completo */
 }
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
