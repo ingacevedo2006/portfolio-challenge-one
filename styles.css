@@ -40,7 +40,7 @@ body, ul, li {
     padding: 15px 65px; /* Márgenes internos */
     background-color: #f8f9fa; /* Fondo claro */
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    width: 100%; /* Ajusta al ancho completo */
+    max-width: 100%; /* Ajusta al ancho completo */
 }
 
 
