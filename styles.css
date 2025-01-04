@@ -34,23 +34,27 @@ body, ul, li {
 }
 
 .cabecera {
-    display: flex; /* Activar Flexbox */
-    align-items: center; /* Centrar verticalmente */
-    justify-content: space-between; /* Logo/Título a la izquierda y Navegación a la derecha */
-    padding: 15px 65px;; /* 15px de espacio en la parte superior e inferior. 65px de espacio en los lados izquierdo y derecho.*/ 
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Distribuye los elementos al máximo */
+    align-items: center; /* Centra verticalmente */
+    padding: 15px 65px; /* Márgenes internos */
     background-color: #f8f9fa; /* Fondo claro */
-    border-bottom: 2px solid #ddd; /* Línea inferior para separar la cabecera */
-    width: 1136px; /* Ancho fijo */
+    border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
+    width: 100%; /* Ajusta al ancho completo */
+}
 
+
+.cabecera__logo-titulo {
+    display: flex; /* Agrupa el logo y el título */
+    align-items: center; /* Centra verticalmente el logo y el título */
+    gap: 10px; /* Espaciado entre el logo y el título */
 }
 
 
 .cabecera__logo {
-    background-image: url(../imagenes/logo.png);
-    max-width: 80px;
-    margin-right: 10px; /* Espacio entre el logo y el título */
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantén las proporciones */
 }
-
 
 
 .cabecera__titulo {
@@ -59,25 +63,30 @@ body, ul, li {
     margin: 0; /* Eliminar márgenes extra */
 }
 
+
+
 .navegacion__lista {
-    display: flex; /* Activar Flexbox */
-    flex-direction: row; /* Organizar en una línea horizontal */
-    justify-content: flex-end; /* Alinear la navegación al extremo derecho */
-    align-items: center; /* Centrar verticalmente con respecto a la cabecera */
-    gap: 20px; /* Espaciado entre elementos (puedes ajustar según prefieras) */
+    display: flex; /* Activa Flexbox */
+    flex-direction: row; /* Organiza los elementos en línea horizontal */
+    gap: 20px; /* Espaciado entre los enlaces */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina relleno */
 }
 
- 
+
 .navegacion__elemento a {
-    font-size: 0.9rem;
-    color: #007bff; /* Color del enlace */
+    font-size: 0.9rem; /* Tamaño del texto */
+    color: #007bff; /* Color de los enlaces */
+    text-decoration: none; /* Elimina subrayado */
     padding: 5px 10px; /* Espaciado interno en los enlaces */
-    transition: color 0.3s ease; /* Transición suave */
+    transition: color 0.3s ease; /* Transición de color suave */
 }
+
 
 .navegacion__elemento a:hover {
     color: #0056b3; /* Color más oscuro al pasar el mouse */
 }
+
 
 /* ------------------------------ Sección Presentación ------------------------------*/
 
