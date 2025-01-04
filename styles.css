@@ -512,9 +512,9 @@ body, ul, li {
 }
 
 .proyectos__img {
-    flex: 1 1 20%; /* Permite que ocupe un 40% flexible */
-    height: auto; /* Mantiene las proporciones */
-    margin-top: 10px; /* Espaciado adicional para la imagen */
+    width: 120px; /* Reduce el tamaño de la imagen */
+    height: auto;
+    border-radius: 8px; /* Opcional: bordes redondeados */
  }
 
 /* Contenedor para textos y botones */
