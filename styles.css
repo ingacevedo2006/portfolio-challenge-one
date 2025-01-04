@@ -52,7 +52,8 @@ body, ul, li {
 
 
 .cabecera__logo {
-    width: 50px; /* Ajusta el tamaño del logo */
+    /*width: 50px; /* Ajusta el tamaño del logo */
+    max-width: 80px;
     height: auto; /* Mantén las proporciones */
 }
 
