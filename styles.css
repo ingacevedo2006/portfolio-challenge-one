@@ -104,7 +104,7 @@ body, ul, li {
 }
 
 .presentacion__foto{
-      flex: 1 1 30%; /* Permite que ocupe un 40% flexible */
+      flex: 1 1 20%; /* Permite que ocupe un 40% flexible */
      /* max-width: 40%; /* Asegura que no exceda el 40% */
       height: auto; /* Mantiene las proporciones */
  }
