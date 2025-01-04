@@ -316,7 +316,7 @@ body, ul, li {
 .aficiones {
     padding-top: 40px; /* Espaciado superior adicional */
     border-bottom: 2px solid #ddd; /* Línea divisoria inferior */
-    max-width: 100%; /* Ajusta al ancho completo */
+    width: 100%; /* Ajusta al ancho completo */
 }
 
 .aficiones__contenedor {
