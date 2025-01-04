@@ -59,7 +59,7 @@ body, ul, li {
 
 
 .cabecera__titulo {
-    font-size: 1.5rem; /* Tamaño del título */
+    font-size: 12px; /* Tamaño del título */
     color: #333; /* Color del texto */
     margin: 0; /* Eliminar márgenes extra */
 }
